@@ -1,1 +1,58 @@
-<!-- add table view here  -->
+<h1>Players</h1>
+<a href="<%= request.base_url %>/rushing.csv">Download CSV</a>
+<table>
+  <tr>
+    <th>Player Name</th>
+    <th>Team</th>
+    <th>Pos</th>
+    <th>Att</th>
+    <th>Att/G</th>
+    <th>
+      <%= 
+        link_to "Yds", 
+        :sort => "yds",
+        :dir => params["dir"] === "ASC" ? "DESC" : "ASC"
+      %>
+    </th>
+    <th>Avg</th>
+    <th>Yds/G</th>
+    <th>
+      <%=
+       link_to "TD", 
+       :sort => "td",
+       :dir => params["dir"] === "ASC" ? "DESC" : "ASC"
+      %>   
+    </th>
+    <th>
+      <%=
+        link_to "Lng",
+        :sort => "lng",
+        :dir => params["dir"] === "ASC" ? "DESC" : "ASC"
+      %>
+    </th>
+    <th>1st</th>
+    <th>1st%</th>
+    <th>20+</th>
+    <th>40+</th>
+    <th>FUM</th>
+  </tr>
+  <% @players.each do |player| %>
+    <tr>
+      <td><%= player.player%></td>
+      <td><%=player.team %></td>
+      <td><%=player.pos %></td>
+      <td><%=player.att %></td>
+      <td><%=player.attg %></td>
+      <td><%=player.yds %></td>
+      <td><%=player.avg %></td>
+      <td><%=player.ydsg %></td>
+      <td><%=player.td %></td>
+      <td><%=player.lng %></td>
+      <td><%=player.first %></td>
+      <td><%=player.first_percent %></td>
+      <td><%=player.twenty_plus %></td>
+      <td><%=player.forty_plus %></td>
+      <td><%=player.fum %></td>
+    </tr>
+  <% end %>
+</table>
