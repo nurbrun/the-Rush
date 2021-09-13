@@ -10,6 +10,15 @@ if Player.count === 0
   path = File.join(File.dirname(__FILE__), "./data/rushing.json")
   players = JSON.parse(File.read(path))
   players.each do |player|
+    if player["Lng"].class == Integer
+      lng = player["Lng"]
+      lng_t = false
+    else
+      lng = player["Lng"].downcase.split("t")[0]
+      lng_t = player["Lng"].downcase.include?("t") ? true : false
+    end
+
+
     Player.create!(
        player: player["Player"],
        team: player["Team"],
@@ -20,7 +29,8 @@ if Player.count === 0
        avg: player["Avg"],
        ydsg: player["Yds/G"],
        td: player["TD"],
-       lng: player["Lng"],
+       lng: lng,
+       lng_t: lng_t,
        first: player["1st"],
        first_percent: player["1st%"],
        twenty_plus: player["20+"],

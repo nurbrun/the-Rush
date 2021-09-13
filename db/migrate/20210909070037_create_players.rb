@@ -11,7 +11,8 @@ class CreatePlayers < ActiveRecord::Migration[6.1]
       t.float :avg
       t.float :ydsg
       t.integer :td
-      t.string :lng
+      t.integer :lng
+      t.boolean :lng_t
       t.integer :first
       t.float :first_percent
       t.integer :twenty_plus

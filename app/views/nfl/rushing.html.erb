@@ -1,15 +1,14 @@
-<h1>Players</h1>
-<a href="<%= request.base_url %>/rushing.csv?dir=<%= params[:dir] %>&player=<%= params[:player] %>&sort=<%= params[:sort] %>">Download CSV</a>
+<h1 id="title">Players</h1>
+<a id="csv-download" href="<%= request.base_url %>/rushing.csv?dir=<%= params[:dir] %>&player=<%= params[:player] %>&sort=<%= params[:sort] %>">Download CSV</a>
 <%= params %>
-<%= form_tag(players_path, method: :get) do %>
+<%= form_tag(players_path, {method: :get, id:"player-form"}) do %>
   <p> Search for a player </p>
   <%= text_field_tag(:player, params[:player]) %>
-  <!-- <%= submit_tag ("Search for Player") %> -->
-  <input name="" type="submit" value="player" />
+  <input id="player-filter" name="" type="submit" value="player" />
 <% end %>
 
-<table>
-  <tr>
+<table id="players-table">
+  <thead>
     <th>Player Name</th>
     <th>Team</th>
     <th>Pos</th>
@@ -20,7 +19,9 @@
         link_to "Yds", 
         :sort => "yds",
         :dir => params["dir"] === "DESC" && params["sort"] === "yds" ? "ASC" : "DESC",
-        :player => params["player"]
+        :player => params["player"],
+        :id => "yds-sort",
+        :class => "sort-link"
       %>
     </th>
     <th>Avg</th>
@@ -30,7 +31,9 @@
        link_to "TD", 
        :sort => "td",
        :dir => params["dir"] === "DESC" && params["sort"] === "td" ? "ASC" : "DESC",
-       :player => params["player"]
+       :player => params["player"],
+       :id => "td-sort",
+       :class => "sort-link"
       %>   
     </th>
     <th>
@@ -38,7 +41,9 @@
         link_to "Lng",
         :sort => "lng",
         :dir => params["dir"] === "DESC" && params["sort"] === "lng" ? "ASC" : "DESC",
-        :player => params["player"]
+        :player => params["player"],
+        :id => "lng-sort",
+        :class => "sort-link"
       %>
     </th>
     <th>1st</th>
@@ -46,24 +51,26 @@
     <th>20+</th>
     <th>40+</th>
     <th>FUM</th>
-  </tr>
+  </thead>
+  <tbody>
   <% @players.each do |player| %>
     <tr>
-      <td><%= player.player%></td>
-      <td><%=player.team %></td>
-      <td><%=player.pos %></td>
-      <td><%=player.att %></td>
-      <td><%=player.attg %></td>
-      <td><%=player.yds %></td>
-      <td><%=player.avg %></td>
-      <td><%=player.ydsg %></td>
-      <td><%=player.td %></td>
-      <td><%=player.lng %></td>
-      <td><%=player.first %></td>
-      <td><%=player.first_percent %></td>
-      <td><%=player.twenty_plus %></td>
-      <td><%=player.forty_plus %></td>
-      <td><%=player.fum %></td>
+      <td class="player"><%=player.player %></td>
+      <td class="team"><%=player.team %></td>
+      <td class="pos"><%=player.pos %></td>
+      <td class="att"><%=player.att %></td>
+      <td class="attg"><%=player.attg %></td>
+      <td class="yds"><%=player.yds %></td>
+      <td class="avg"><%=player.avg %></td>
+      <td class="ydsg"><%=player.ydsg %></td>
+      <td class="td"><%=player.td %></td>
+      <td class="lng"><%=player.lng %> <%=player.lng_t ? "T" : "" %></td>
+      <td class="first"><%=player.first %></td>
+      <td class="first_percent"><%=player.first_percent %></td>
+      <td class="twenty_plus"><%=player.twenty_plus %></td>
+      <td class="forty_plus"><%=player.forty_plus %></td>
+      <td class="fum"><%=player.fum %></td>
     </tr>
   <% end %>
+  </tbody>
 </table>
