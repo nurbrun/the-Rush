@@ -1,11 +1,5216 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-# column: value
+player_Joe_Banyard:  
+  player: Joe Banyard
+  team: JAX
+  pos: RB
+  att: 2
+  attg: 2
+  yds: 7
+  avg: 3.5
+  ydsg: 7
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Shaun_Hill:  
+  player: Shaun Hill
+  team: MIN
+  pos: QB
+  att: 5
+  attg: 1.7
+  yds: 5
+  avg: 1
+  ydsg: 1.7
+  td: 0
+  lng: '9'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Breshad_Perriman:  
+  player: Breshad Perriman
+  team: BAL
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 2
+  avg: 2
+  ydsg: 0.1
+  td: 0
+  lng: '2'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Charlie_Whitehurst:  
+  player: Charlie Whitehurst
+  team: CLE
+  pos: QB
+  att: 2
+  attg: 2
+  yds: 1
+  avg: 0.5
+  ydsg: 1
+  td: 0
+  lng: '2'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Lance_Dunbar:  
+  player: Lance Dunbar
+  team: DAL
+  pos: RB
+  att: 9
+  attg: 0.7
+  yds: 31
+  avg: 3.4
+  ydsg: 2.4
+  td: 1
+  lng: '10'
+  first: 3
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Mark_Ingram:  
+  player: Mark Ingram
+  team: 'NO'
+  pos: RB
+  att: 205
+  attg: 12.8
+  yds: '1,043'
+  avg: 5.1
+  ydsg: 65.2
+  td: 6
+  lng: 75T
+  first: 49
+  first_percent: 23.9
+  twenty_plus: 4
+  forty_plus: 2
+  fum: 2
+player_Reggie_Bush:  
+  player: Reggie Bush
+  team: BUF
+  pos: RB
+  att: 12
+  attg: 0.9
+  yds: -3
+  avg: -0.3
+  ydsg: -0.2
+  td: 1
+  lng: 5
+  first: 2
+  first_percent: 16.7
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Lucky_Whitehead:  
+  player: Lucky Whitehead
+  team: DAL
+  pos: WR
+  att: 10
+  attg: 0.7
+  yds: 82
+  avg: 8.2
+  ydsg: 5.5
+  td: 0
+  lng: '26'
+  first: 4
+  first_percent: 40
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Brett_Hundley:  
+  player: Brett Hundley
+  team: GB
+  pos: QB
+  att: 3
+  attg: 0.8
+  yds: -2
+  avg: -0.7
+  ydsg: -0.5
+  td: 0
+  lng: 0
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Tyreek_Hill:  
+  player: Tyreek Hill
+  team: KC
+  pos: WR
+  att: 24
+  attg: 1.5
+  yds: 267
+  avg: 11.1
+  ydsg: 16.7
+  td: 3
+  lng: 70T
+  first: 10
+  first_percent: 41.7
+  twenty_plus: 4
+  forty_plus: 2
+  fum: 0
+player_Randall_Cobb:  
+  player: Randall Cobb
+  team: GB
+  pos: WR
+  att: 10
+  attg: 0.8
+  yds: 33
+  avg: 3.3
+  ydsg: 2.5
+  td: 0
+  lng: '14'
+  first: 4
+  first_percent: 40
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Aaron_Ripkowski:  
+  player: Aaron Ripkowski
+  team: GB
+  pos: FB
+  att: 34
+  attg: 2.1
+  yds: 150
+  avg: 4.4
+  ydsg: 9.4
+  td: 2
+  lng: '15'
+  first: 10
+  first_percent: 29.4
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Chris_Moore:  
+  player: Chris Moore
+  team: BAL
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 19
+  avg: 6.3
+  ydsg: 1.3
+  td: 0
+  lng: '10'
+  first: 1
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jeremy_Hill:  
+  player: Jeremy Hill
+  team: CIN
+  pos: RB
+  att: 222
+  attg: 14.8
+  yds: '839'
+  avg: 3.8
+  ydsg: 55.9
+  td: 9
+  lng: 74T
+  first: 42
+  first_percent: 18.9
+  twenty_plus: 5
+  forty_plus: 3
+  fum: 0
+player_Kenneth_Farrow:  
+  player: Kenneth Farrow
+  team: SD
+  pos: RB
+  att: 60
+  attg: 4.6
+  yds: 192
+  avg: 3.2
+  ydsg: 14.8
+  td: 0
+  lng: '11'
+  first: 10
+  first_percent: 16.7
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Brandon_Tate:  
+  player: Brandon Tate
+  team: BUF
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 48
+  avg: 16
+  ydsg: 3.2
+  td: 0
+  lng: '30'
+  first: 2
+  first_percent: 66.7
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Philip_Rivers:  
+  player: Philip Rivers
+  team: SD
+  pos: QB
+  att: 14
+  attg: 0.9
+  yds: 35
+  avg: 2.5
+  ydsg: 2.2
+  td: 0
+  lng: '10'
+  first: 2
+  first_percent: 14.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Denard_Robinson:  
+  player: Denard Robinson
+  team: JAX
+  pos: RB
+  att: 41
+  attg: 3.2
+  yds: 144
+  avg: 3.5
+  ydsg: 11.1
+  td: 0
+  lng: '9'
+  first: 4
+  first_percent: 9.8
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Donnie_Jones:  
+  player: Donnie Jones
+  team: PHI
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Cameron_Artis-Payne:  
+  player: Cameron Artis-Payne
+  team: CAR
+  pos: RB
+  att: 36
+  attg: 12
+  yds: '144'
+  avg: 4
+  ydsg: 48
+  td: 2
+  lng: '14'
+  first: 5
+  first_percent: 13.9
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Kevin_Hogan:  
+  player: Kevin Hogan
+  team: CLE
+  pos: QB
+  att: 8
+  attg: 2
+  yds: 105
+  avg: 13.1
+  ydsg: 26.2
+  td: 1
+  lng: 28T
+  first: 5
+  first_percent: 62.5
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Robert_Turbin:  
+  player: Robert Turbin
+  team: IND
+  pos: RB
+  att: 47
+  attg: 3.1
+  yds: 164
+  avg: 3.5
+  ydsg: 10.9
+  td: 7
+  lng: '18'
+  first: 20
+  first_percent: 42.6
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Robert_Griffin_III:  
+  player: Robert Griffin III
+  team: CLE
+  pos: QB
+  att: 31
+  attg: 6.2
+  yds: '190'
+  avg: 6.1
+  ydsg: 38
+  td: 2
+  lng: '20'
+  first: 10
+  first_percent: 32.3
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 2
+player_Rhett_Ellison:  
+  player: Rhett Ellison
+  team: MIN
+  pos: TE
+  att: 1
+  attg: 0.1
+  yds: 1
+  avg: 1
+  ydsg: 0.1
+  td: 1
+  lng: 1T
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Rashad_Jennings:  
+  player: Rashad Jennings
+  team: NYG
+  pos: RB
+  att: 181
+  attg: 13.9
+  yds: '593'
+  avg: 3.3
+  ydsg: 45.6
+  td: 3
+  lng: '25'
+  first: 29
+  first_percent: 16
+  twenty_plus: 3
+  forty_plus: 0
+  fum: 0
+player_Marcel_Reece:  
+  player: Marcel Reece
+  team: SEA
+  pos: FB
+  att: 2
+  attg: 0.5
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Dontari_Poe:  
+  player: Dontari Poe
+  team: KC
+  pos: NT
+  att: 1
+  attg: 0.1
+  yds: 1
+  avg: 1
+  ydsg: 0.1
+  td: 1
+  lng: 1T
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Cardale_Jones:  
+  player: Cardale Jones
+  team: BUF
+  pos: QB
+  att: 1
+  attg: 1
+  yds: -1
+  avg: -1
+  ydsg: -1
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Nick_Foles:  
+  player: Nick Foles
+  team: KC
+  pos: QB
+  att: 4
+  attg: 1.3
+  yds: -4
+  avg: -1
+  ydsg: -1.3
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Tyler_Boyd:  
+  player: Tyler Boyd
+  team: CIN
+  pos: WR
+  att: 4
+  attg: 0.2
+  yds: 58
+  avg: 14.5
+  ydsg: 3.6
+  td: 0
+  lng: '39'
+  first: 2
+  first_percent: 50
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Tyrod_Taylor:  
+  player: Tyrod Taylor
+  team: BUF
+  pos: QB
+  att: 95
+  attg: 6.3
+  yds: '580'
+  avg: 6.1
+  ydsg: 38.7
+  td: 6
+  lng: '49'
+  first: 31
+  first_percent: 32.6
+  twenty_plus: 7
+  forty_plus: 1
+  fum: 3
+player_Antonio_Brown:  
+  player: Antonio Brown
+  team: PIT
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 9
+  avg: 3
+  ydsg: 0.6
+  td: 0
+  lng: '13'
+  first: 1
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Javorius_Allen:  
+  player: Javorius Allen
+  team: BAL
+  pos: RB
+  att: 9
+  attg: 1.1
+  yds: 34
+  avg: 3.8
+  ydsg: 4.2
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Drew_Brees:  
+  player: Drew Brees
+  team: 'NO'
+  pos: QB
+  att: 23
+  attg: 1.4
+  yds: 20
+  avg: 0.9
+  ydsg: 1.2
+  td: 2
+  lng: '7'
+  first: 7
+  first_percent: 30.4
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jamaal_Charles:  
+  player: Jamaal Charles
+  team: KC
+  pos: RB
+  att: 12
+  attg: 4
+  yds: 40
+  avg: 3.3
+  ydsg: 13.3
+  td: 1
+  lng: '17'
+  first: 3
+  first_percent: 25
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_LeSean_McCoy:  
+  player: LeSean McCoy
+  team: BUF
+  pos: RB
+  att: 234
+  attg: 15.6
+  yds: '1,267'
+  avg: 5.4
+  ydsg: 84.5
+  td: 13
+  lng: 75T
+  first: 55
+  first_percent: 23.5
+  twenty_plus: 11
+  forty_plus: 3
+  fum: 3
+player_Brandon_LaFell:  
+  player: Brandon LaFell
+  team: CIN
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: -2
+  avg: -2
+  ydsg: -0.1
+  td: 0
+  lng: -2
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Cole_Beasley:  
+  player: Cole Beasley
+  team: DAL
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 7
+  avg: 7
+  ydsg: 0.4
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Quincy_Enunwa:  
+  player: Quincy Enunwa
+  team: NYJ
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 12
+  avg: 12
+  ydsg: 0.8
+  td: 0
+  lng: '12'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Bryan_Walters:  
+  player: Bryan Walters
+  team: JAX
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 4
+  avg: 4
+  ydsg: 0.4
+  td: 0
+  lng: '4'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Derek_Anderson:  
+  player: Derek Anderson
+  team: CAR
+  pos: QB
+  att: 1
+  attg: 0.2
+  yds: 4
+  avg: 4
+  ydsg: 0.8
+  td: 0
+  lng: '4'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Sam_Koch:  
+  player: Sam Koch
+  team: BAL
+  pos: P
+  att: 2
+  attg: 0.1
+  yds: -23
+  avg: -11.5
+  ydsg: -1.4
+  td: 0
+  lng: 0
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jon_Ryan:  
+  player: Jon Ryan
+  team: SEA
+  pos: P
+  att: 2
+  attg: 0.1
+  yds: 26
+  avg: 13
+  ydsg: 1.6
+  td: 0
+  lng: '26'
+  first: 1
+  first_percent: 50
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Adrian_Peterson:  
+  player: Adrian Peterson
+  team: MIN
+  pos: RB
+  att: 37
+  attg: 12.3
+  yds: 72
+  avg: 1.9
+  ydsg: 24
+  td: 0
+  lng: '13'
+  first: 3
+  first_percent: 8.1
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Tim_Hightower:  
+  player: Tim Hightower
+  team: 'NO'
+  pos: RB
+  att: 133
+  attg: 8.3
+  yds: '548'
+  avg: 4.1
+  ydsg: 34.2
+  td: 4
+  lng: '30'
+  first: 32
+  first_percent: 24.1
+  twenty_plus: 4
+  forty_plus: 0
+  fum: 0
+player_Malcolm_Brown:  
+  player: Malcolm Brown
+  team: LA
+  pos: RB
+  att: 18
+  attg: 1.1
+  yds: 39
+  avg: 2.2
+  ydsg: 2.4
+  td: 0
+  lng: '10'
+  first: 1
+  first_percent: 5.6
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Dwayne_Washington:  
+  player: Dwayne Washington
+  team: DET
+  pos: RB
+  att: 90
+  attg: 7.5
+  yds: 265
+  avg: 2.9
+  ydsg: 22.1
+  td: 1
+  lng: '28'
+  first: 11
+  first_percent: 12.2
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Rex_Burkhead:  
+  player: Rex Burkhead
+  team: CIN
+  pos: RB
+  att: 74
+  attg: 4.6
+  yds: 344
+  avg: 4.6
+  ydsg: 21.5
+  td: 2
+  lng: '17'
+  first: 23
+  first_percent: 31.1
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Scott_Tolzien:  
+  player: Scott Tolzien
+  team: IND
+  pos: QB
+  att: 6
+  attg: 2
+  yds: 3
+  avg: 0.5
+  ydsg: 1
+  td: 0
+  lng: '5'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jonathan_Grimes:  
+  player: Jonathan Grimes
+  team: HOU
+  pos: RB
+  att: 23
+  attg: 2.3
+  yds: 105
+  avg: 4.6
+  ydsg: 10.5
+  td: 0
+  lng: '14'
+  first: 5
+  first_percent: 21.7
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Russell_Wilson:  
+  player: Russell Wilson
+  team: SEA
+  pos: QB
+  att: 72
+  attg: 4.5
+  yds: 259
+  avg: 3.6
+  ydsg: 16.2
+  td: 1
+  lng: '18'
+  first: 16
+  first_percent: 22.2
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Cameron_Meredith:  
+  player: Cameron Meredith
+  team: CHI
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 6
+  avg: 6
+  ydsg: 0.4
+  td: 0
+  lng: '6'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Coby_Fleener:  
+  player: Coby Fleener
+  team: 'NO'
+  pos: TE
+  att: 1
+  attg: 0.1
+  yds: 2
+  avg: 2
+  ydsg: 0.1
+  td: 1
+  lng: 2T
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Blaine_Gabbert:  
+  player: Blaine Gabbert
+  team: SF
+  pos: QB
+  att: 40
+  attg: 6.7
+  yds: 173
+  avg: 4.3
+  ydsg: 28.8
+  td: 2
+  lng: '24'
+  first: 15
+  first_percent: 37.5
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Ty_Montgomery:  
+  player: Ty Montgomery
+  team: GB
+  pos: RB
+  att: 77
+  attg: 5.1
+  yds: 457
+  avg: 5.9
+  ydsg: 30.5
+  td: 3
+  lng: '61'
+  first: 20
+  first_percent: 26
+  twenty_plus: 5
+  forty_plus: 1
+  fum: 1
+player_Zach_Line:  
+  player: Zach Line
+  team: MIN
+  pos: FB
+  att: 7
+  attg: 0.5
+  yds: 15
+  avg: 2.1
+  ydsg: 1
+  td: 0
+  lng: '5'
+  first: 3
+  first_percent: 42.9
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_James_Starks:  
+  player: James Starks
+  team: GB
+  pos: RB
+  att: 63
+  attg: 7
+  yds: 145
+  avg: 2.3
+  ydsg: 16.1
+  td: 0
+  lng: '11'
+  first: 9
+  first_percent: 14.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Devonta_Freeman:  
+  player: Devonta Freeman
+  team: ATL
+  pos: RB
+  att: 227
+  attg: 14.2
+  yds: '1,079'
+  avg: 4.8
+  ydsg: 67.4
+  td: 11
+  lng: 75T
+  first: 61
+  first_percent: 26.9
+  twenty_plus: 7
+  forty_plus: 2
+  fum: 1
+player_Eddie_Lacy:  
+  player: Eddie Lacy
+  team: GB
+  pos: RB
+  att: 71
+  attg: 14.2
+  yds: '360'
+  avg: 5.1
+  ydsg: 72
+  td: 0
+  lng: '31'
+  first: 15
+  first_percent: 21.1
+  twenty_plus: 4
+  forty_plus: 0
+  fum: 0
+player_Alex_Smith:  
+  player: Alex Smith
+  team: KC
+  pos: QB
+  att: 48
+  attg: 3.2
+  yds: 134
+  avg: 2.8
+  ydsg: 8.9
+  td: 5
+  lng: '24'
+  first: 9
+  first_percent: 18.8
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 2
+player_Jeremy_Langford:  
+  player: Jeremy Langford
+  team: CHI
+  pos: RB
+  att: 62
+  attg: 5.2
+  yds: 200
+  avg: 3.2
+  ydsg: 16.7
+  td: 4
+  lng: '23'
+  first: 12
+  first_percent: 19.4
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 2
+player_Don_Jackson:  
+  player: Don Jackson
+  team: GB
+  pos: RB
+  att: 10
+  attg: 3.3
+  yds: 32
+  avg: 3.2
+  ydsg: 10.7
+  td: 0
+  lng: '7'
+  first: 1
+  first_percent: 10
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Paul_Lasike:  
+  player: Paul Lasike
+  team: CHI
+  pos: FB
+  att: 3
+  attg: 0.3
+  yds: 8
+  avg: 2.7
+  ydsg: 0.8
+  td: 0
+  lng: '5'
+  first: 3
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Kenjon_Barner:  
+  player: Kenjon Barner
+  team: PHI
+  pos: RB
+  att: 27
+  attg: 2.1
+  yds: 129
+  avg: 4.8
+  ydsg: 9.9
+  td: 2
+  lng: '19'
+  first: 9
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Ryan_Tannehill:  
+  player: Ryan Tannehill
+  team: MIA
+  pos: QB
+  att: 39
+  attg: 3
+  yds: 164
+  avg: 4.2
+  ydsg: 12.6
+  td: 1
+  lng: '18'
+  first: 10
+  first_percent: 25.6
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 4
+player_Brandon_Wilds:  
+  player: Brandon Wilds
+  team: NYJ
+  pos: RB
+  att: 10
+  attg: 2.5
+  yds: 27
+  avg: 2.7
+  ydsg: 6.8
+  td: 0
+  lng: '6'
+  first: 1
+  first_percent: 10
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Tajae_Sharpe:  
+  player: Tajae Sharpe
+  team: TEN
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 1
+  avg: 1
+  ydsg: 0.1
+  td: 0
+  lng: '1'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jimmy_Graham:  
+  player: Jimmy Graham
+  team: SEA
+  pos: TE
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Paxton_Lynch:  
+  player: Paxton Lynch
+  team: DEN
+  pos: QB
+  att: 11
+  attg: 3.7
+  yds: 25
+  avg: 2.3
+  ydsg: 8.3
+  td: 0
+  lng: '10'
+  first: 1
+  first_percent: 9.1
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_J.D._McKissic:  
+  player: J.D. McKissic
+  team: SEA
+  pos: RB
+  att: 1
+  attg: 1
+  yds: 2
+  avg: 2
+  ydsg: 2
+  td: 0
+  lng: '2'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Landry_Jones:  
+  player: Landry Jones
+  team: PIT
+  pos: QB
+  att: 6
+  attg: 0.8
+  yds: -4
+  avg: -0.7
+  ydsg: -0.5
+  td: 0
+  lng: 0
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Percy_Harvin:  
+  player: Percy Harvin
+  team: BUF
+  pos: WR
+  att: 1
+  attg: 0.5
+  yds: 11
+  avg: 11
+  ydsg: 5.5
+  td: 0
+  lng: '11'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Robert_Woods:  
+  player: Robert Woods
+  team: BUF
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 6
+  avg: 6
+  ydsg: 0.5
+  td: 0
+  lng: '6'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Adam_Thielen:  
+  player: Adam Thielen
+  team: MIN
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: 15
+  avg: 7.5
+  ydsg: 0.9
+  td: 0
+  lng: '11'
+  first: 1
+  first_percent: 50
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Matt_Moore:  
+  player: Matt Moore
+  team: MIA
+  pos: QB
+  att: 1
+  attg: 0.2
+  yds: -1
+  avg: -1
+  ydsg: -0.2
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jarvis_Landry:  
+  player: Jarvis Landry
+  team: MIA
+  pos: WR
+  att: 5
+  attg: 0.3
+  yds: 17
+  avg: 3.4
+  ydsg: 1.1
+  td: 0
+  lng: '13'
+  first: 1
+  first_percent: 20
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Chris_Hogan:  
+  player: Chris Hogan
+  team: NE
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 9
+  avg: 3
+  ydsg: 0.6
+  td: 0
+  lng: '6'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Chris_Ivory:  
+  player: Chris Ivory
+  team: JAX
+  pos: RB
+  att: 117
+  attg: 10.6
+  yds: '439'
+  avg: 3.8
+  ydsg: 39.9
+  td: 3
+  lng: '42'
+  first: 21
+  first_percent: 17.9
+  twenty_plus: 2
+  forty_plus: 2
+  fum: 5
+player_Jakeem_Grant:  
+  player: Jakeem Grant
+  team: MIA
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 1
+  avg: 1
+  ydsg: 0.1
+  td: 0
+  lng: '1'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jordan_Berry:  
+  player: Jordan Berry
+  team: PIT
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: -3
+  avg: -3
+  ydsg: -0.2
+  td: 0
+  lng: -3
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_John_Brown:  
+  player: John Brown
+  team: ARI
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 10
+  avg: 10
+  ydsg: 0.7
+  td: 0
+  lng: '10'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Matt_Jones:  
+  player: Matt Jones
+  team: WAS
+  pos: RB
+  att: 99
+  attg: 14.1
+  yds: '460'
+  avg: 4.6
+  ydsg: 65.7
+  td: 3
+  lng: '57'
+  first: 28
+  first_percent: 28.3
+  twenty_plus: 3
+  forty_plus: 1
+  fum: 3
+player_Matt_McGloin:  
+  player: Matt McGloin
+  team: OAK
+  pos: QB
+  att: 3
+  attg: 1
+  yds: -3
+  avg: -1
+  ydsg: -1
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Terrance_West:  
+  player: Terrance West
+  team: BAL
+  pos: RB
+  att: 193
+  attg: 12.1
+  yds: '774'
+  avg: 4
+  ydsg: 48.4
+  td: 5
+  lng: '41'
+  first: 35
+  first_percent: 18.1
+  twenty_plus: 5
+  forty_plus: 1
+  fum: 2
+player_Terrell_Watson:  
+  player: Terrell Watson
+  team: PHI
+  pos: RB
+  att: 9
+  attg: 9
+  yds: 28
+  avg: 3.1
+  ydsg: 28
+  td: 1
+  lng: '8'
+  first: 2
+  first_percent: 22.2
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Matt_Asiata:  
+  player: Matt Asiata
+  team: MIN
+  pos: RB
+  att: 121
+  attg: 7.6
+  yds: 402
+  avg: 3.3
+  ydsg: 25.1
+  td: 6
+  lng: '29'
+  first: 27
+  first_percent: 22.3
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 1
+player_Ted_Ginn:  
+  player: Ted Ginn
+  team: CAR
+  pos: WR
+  att: 14
+  attg: 0.9
+  yds: 98
+  avg: 7
+  ydsg: 6.1
+  td: 0
+  lng: '20'
+  first: 4
+  first_percent: 28.6
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Marqise_Lee:  
+  player: Marqise Lee
+  team: JAX
+  pos: WR
+  att: 6
+  attg: 0.4
+  yds: 35
+  avg: 5.8
+  ydsg: 2.2
+  td: 0
+  lng: '11'
+  first: 2
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Josh_McCown:  
+  player: Josh McCown
+  team: CLE
+  pos: QB
+  att: 7
+  attg: 1.4
+  yds: 21
+  avg: 3
+  ydsg: 4.2
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Jordan_Todman:  
+  player: Jordan Todman
+  team: IND
+  pos: RB
+  att: 9
+  attg: 0.6
+  yds: 59
+  avg: 6.6
+  ydsg: 3.7
+  td: 0
+  lng: '19'
+  first: 3
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Tyler_Ervin:  
+  player: Tyler Ervin
+  team: HOU
+  pos: RB
+  att: 1
+  attg: 0.1
+  yds: 3
+  avg: 3
+  ydsg: 0.2
+  td: 0
+  lng: '3'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Alex_Collins:  
+  player: Alex Collins
+  team: SEA
+  pos: RB
+  att: 31
+  attg: 2.8
+  yds: 125
+  avg: 4
+  ydsg: 11.4
+  td: 1
+  lng: '26'
+  first: 8
+  first_percent: 25.8
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 2
+player_Drew_Kaser:  
+  player: Drew Kaser
+  team: SD
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Josh_Bellamy:  
+  player: Josh Bellamy
+  team: CHI
+  pos: WR
+  att: 4
+  attg: 0.2
+  yds: 37
+  avg: 9.3
+  ydsg: 2.3
+  td: 0
+  lng: '22'
+  first: 2
+  first_percent: 50
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Travis_Benjamin:  
+  player: Travis Benjamin
+  team: SD
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: -3
+  avg: -1.5
+  ydsg: -0.2
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Antone_Smith:  
+  player: Antone Smith
+  team: TB
+  pos: RB
+  att: 10
+  attg: 3.3
+  yds: 47
+  avg: 4.7
+  ydsg: 15.7
+  td: 0
+  lng: '8'
+  first: 1
+  first_percent: 10
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Thomas_Rawls:  
+  player: Thomas Rawls
+  team: SEA
+  pos: RB
+  att: 109
+  attg: 12.1
+  yds: '349'
+  avg: 3.2
+  ydsg: 38.8
+  td: 3
+  lng: 45T
+  first: 21
+  first_percent: 19.3
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Ameer_Abdullah:  
+  player: Ameer Abdullah
+  team: DET
+  pos: RB
+  att: 18
+  attg: 9
+  yds: '101'
+  avg: 5.6
+  ydsg: 50.5
+  td: 0
+  lng: '24'
+  first: 6
+  first_percent: 33.3
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Bryce_Petty:  
+  player: Bryce Petty
+  team: NYJ
+  pos: QB
+  att: 5
+  attg: 0.8
+  yds: 19
+  avg: 3.8
+  ydsg: 3.2
+  td: 0
+  lng: '9'
+  first: 1
+  first_percent: 20
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jay_Prosch:  
+  player: Jay Prosch
+  team: HOU
+  pos: FB
+  att: 4
+  attg: 0.3
+  yds: 9
+  avg: 2.3
+  ydsg: 0.6
+  td: 0
+  lng: '5'
+  first: 3
+  first_percent: 75
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jay_Cutler:  
+  player: Jay Cutler
+  team: CHI
+  pos: QB
+  att: 5
+  attg: 1
+  yds: 24
+  avg: 4.8
+  ydsg: 4.8
+  td: 0
+  lng: '12'
+  first: 1
+  first_percent: 20
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Ka'Deem_Carey:  
+  player: Ka'Deem Carey
+  team: CHI
+  pos: RB
+  att: 32
+  attg: 2.7
+  yds: 126
+  avg: 3.9
+  ydsg: 10.5
+  td: 0
+  lng: '24'
+  first: 4
+  first_percent: 12.5
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_DuJuan_Harris:  
+  player: DuJuan Harris
+  team: SF
+  pos: RB
+  att: 38
+  attg: 3.8
+  yds: 138
+  avg: 3.6
+  ydsg: 13.8
+  td: 0
+  lng: '19'
+  first: 6
+  first_percent: 15.8
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Peyton_Barber:  
+  player: Peyton Barber
+  team: TB
+  pos: RB
+  att: 55
+  attg: 3.7
+  yds: 223
+  avg: 4.1
+  ydsg: 14.9
+  td: 1
+  lng: 44T
+  first: 10
+  first_percent: 18.2
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Jared_Goff:  
+  player: Jared Goff
+  team: LA
+  pos: QB
+  att: 8
+  attg: 1.1
+  yds: 16
+  avg: 2
+  ydsg: 2.3
+  td: 1
+  lng: '6'
+  first: 1
+  first_percent: 12.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Matt_Forte:  
+  player: Matt Forte
+  team: NYJ
+  pos: RB
+  att: 218
+  attg: 15.6
+  yds: '813'
+  avg: 3.7
+  ydsg: 58.1
+  td: 7
+  lng: '32'
+  first: 35
+  first_percent: 16.1
+  twenty_plus: 5
+  forty_plus: 0
+  fum: 1
+player_Cordarrelle_Patterson:  
+  player: Cordarrelle Patterson
+  team: MIN
+  pos: WR
+  att: 7
+  attg: 0.4
+  yds: 43
+  avg: 6.1
+  ydsg: 2.7
+  td: 0
+  lng: '22'
+  first: 2
+  first_percent: 28.6
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_LeGarrette_Blount:  
+  player: LeGarrette Blount
+  team: NE
+  pos: RB
+  att: 299
+  attg: 18.7
+  yds: '1,161'
+  avg: 3.9
+  ydsg: 72.6
+  td: 18
+  lng: '44'
+  first: 67
+  first_percent: 22.4
+  twenty_plus: 7
+  forty_plus: 3
+  fum: 2
+player_John_Kuhn:  
+  player: John Kuhn
+  team: 'NO'
+  pos: FB
+  att: 18
+  attg: 1.1
+  yds: 37
+  avg: 2.1
+  ydsg: 2.3
+  td: 4
+  lng: '4'
+  first: 12
+  first_percent: 66.7
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Arian_Foster:  
+  player: Arian Foster
+  team: MIA
+  pos: RB
+  att: 22
+  attg: 5.5
+  yds: 55
+  avg: 2.5
+  ydsg: 13.8
+  td: 0
+  lng: '9'
+  first: 2
+  first_percent: 9.1
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Josh_Huff:  
+  player: Josh Huff
+  team: TB
+  pos: WR
+  att: 1
+  attg: 0.3
+  yds: 5
+  avg: 5
+  ydsg: 1.7
+  td: 0
+  lng: '5'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Le'Veon_Bell:  
+  player: Le'Veon Bell
+  team: PIT
+  pos: RB
+  att: 261
+  attg: 21.8
+  yds: '1,268'
+  avg: 4.9
+  ydsg: 105.7
+  td: 7
+  lng: '44'
+  first: 69
+  first_percent: 26.4
+  twenty_plus: 4
+  forty_plus: 1
+  fum: 3
+player_Sam_Bradford:  
+  player: Sam Bradford
+  team: MIN
+  pos: QB
+  att: 20
+  attg: 1.3
+  yds: 53
+  avg: 2.7
+  ydsg: 3.5
+  td: 0
+  lng: '24'
+  first: 3
+  first_percent: 15
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Valentino_Blake:  
+  player: Valentino Blake
+  team: TEN
+  pos: DB
+  att: 1
+  attg: 0.1
+  yds: -2
+  avg: -2
+  ydsg: -0.1
+  td: 0
+  lng: "-2"
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Sammie_Coates:  
+  player: Sammie Coates
+  team: PIT
+  pos: WR
+  att: 4
+  attg: 0.3
+  yds: 14
+  avg: 3.5
+  ydsg: 1
+  td: 0
+  lng: '15'
+  first: 1
+  first_percent: 25
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Byron_Marshall:  
+  player: Byron Marshall
+  team: PHI
+  pos: WR
+  att: 19
+  attg: 6.3
+  yds: 64
+  avg: 3.4
+  ydsg: 21.3
+  td: 0
+  lng: '12'
+  first: 5
+  first_percent: 26.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Trevone_Boykin:  
+  player: Trevone Boykin
+  team: SEA
+  pos: QB
+  att: 8
+  attg: 1.6
+  yds: 1
+  avg: 0.1
+  ydsg: 0.2
+  td: 0
+  lng: '11'
+  first: 1
+  first_percent: 12.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Cam_Newton:  
+  player: Cam Newton
+  team: CAR
+  pos: QB
+  att: 90
+  attg: 6
+  yds: 359
+  avg: 4
+  ydsg: 23.9
+  td: 5
+  lng: '28'
+  first: 28
+  first_percent: 31.1
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 1
+player_Bobby_Rainey:  
+  player: Bobby Rainey
+  team: NYG
+  pos: RB
+  att: 17
+  attg: 1.1
+  yds: 63
+  avg: 3.7
+  ydsg: 4.2
+  td: 0
+  lng: '14'
+  first: 4
+  first_percent: 23.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Terron_Ward:  
+  player: Terron Ward
+  team: ATL
+  pos: RB
+  att: 31
+  attg: 6.2
+  yds: 151
+  avg: 4.9
+  ydsg: 30.2
+  td: 0
+  lng: '45'
+  first: 6
+  first_percent: 19.4
+  twenty_plus: 2
+  forty_plus: 1
+  fum: 0
+player_Eli_Rogers:  
+  player: Eli Rogers
+  team: PIT
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 6
+  avg: 6
+  ydsg: 0.5
+  td: 0
+  lng: '6'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Eli_Manning:  
+  player: Eli Manning
+  team: NYG
+  pos: QB
+  att: 21
+  attg: 1.3
+  yds: -9
+  avg: -0.4
+  ydsg: -0.6
+  td: 0
+  lng: 6
+  first: 2
+  first_percent: 9.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Matt_Cassel:  
+  player: Matt Cassel
+  team: TEN
+  pos: QB
+  att: 4
+  attg: 1
+  yds: 3
+  avg: 0.8
+  ydsg: 0.8
+  td: 0
+  lng: '3'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Tom_Brady:  
+  player: Tom Brady
+  team: NE
+  pos: QB
+  att: 28
+  attg: 2.3
+  yds: 64
+  avg: 2.3
+  ydsg: 5.3
+  td: 0
+  lng: '15'
+  first: 10
+  first_percent: 35.7
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_C.J._Anderson:  
+  player: C.J. Anderson
+  team: DEN
+  pos: RB
+  att: 110
+  attg: 15.7
+  yds: '437'
+  avg: 4
+  ydsg: 62.4
+  td: 4
+  lng: '28'
+  first: 22
+  first_percent: 20
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Jerome_Felton:  
+  player: Jerome Felton
+  team: BUF
+  pos: FB
+  att: 8
+  attg: 0.5
+  yds: 13
+  avg: 1.6
+  ydsg: 0.9
+  td: 0
+  lng: '6'
+  first: 5
+  first_percent: 62.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Juwan_Thompson:  
+  player: Juwan Thompson
+  team: DEN
+  pos: RB
+  att: 8
+  attg: 1
+  yds: 26
+  avg: 3.3
+  ydsg: 3.2
+  td: 1
+  lng: '14'
+  first: 2
+  first_percent: 25
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Corey_Grant:  
+  player: Corey Grant
+  team: JAX
+  pos: RB
+  att: 32
+  attg: 2.9
+  yds: 164
+  avg: 5.1
+  ydsg: 14.9
+  td: 1
+  lng: 57T
+  first: 6
+  first_percent: 18.8
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Alfred_Morris:  
+  player: Alfred Morris
+  team: DAL
+  pos: RB
+  att: 69
+  attg: 4.9
+  yds: 243
+  avg: 3.5
+  ydsg: 17.4
+  td: 2
+  lng: '17'
+  first: 15
+  first_percent: 21.7
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Braxton_Miller:  
+  player: Braxton Miller
+  team: HOU
+  pos: WR
+  att: 3
+  attg: 0.3
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '1'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Robby_Anderson:  
+  player: Robby Anderson
+  team: NYJ
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 42
+  avg: 14
+  ydsg: 2.6
+  td: 0
+  lng: '30'
+  first: 2
+  first_percent: 66.7
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Todd_Gurley:  
+  player: Todd Gurley
+  team: LA
+  pos: RB
+  att: 278
+  attg: 17.4
+  yds: '885'
+  avg: 3.2
+  ydsg: 55.3
+  td: 6
+  lng: 24T
+  first: 48
+  first_percent: 17.3
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 2
+player_Joe_Flacco:  
+  player: Joe Flacco
+  team: BAL
+  pos: QB
+  att: 21
+  attg: 1.3
+  yds: 58
+  avg: 2.8
+  ydsg: 3.6
+  td: 2
+  lng: '16'
+  first: 6
+  first_percent: 28.6
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Matthew_Stafford:  
+  player: Matthew Stafford
+  team: DET
+  pos: QB
+  att: 37
+  attg: 2.3
+  yds: 207
+  avg: 5.6
+  ydsg: 12.9
+  td: 2
+  lng: '24'
+  first: 15
+  first_percent: 40.5
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Mike_Tolbert:  
+  player: Mike Tolbert
+  team: CAR
+  pos: FB
+  att: 35
+  attg: 2.2
+  yds: 114
+  avg: 3.3
+  ydsg: 7.1
+  td: 0
+  lng: '14'
+  first: 5
+  first_percent: 14.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Danny_Woodhead:  
+  player: Danny Woodhead
+  team: SD
+  pos: RB
+  att: 19
+  attg: 9.5
+  yds: '116'
+  avg: 6.1
+  ydsg: 58
+  td: 0
+  lng: '23'
+  first: 6
+  first_percent: 31.6
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 0
+player_Carson_Palmer:  
+  player: Carson Palmer
+  team: ARI
+  pos: QB
+  att: 14
+  attg: 0.9
+  yds: 38
+  avg: 2.7
+  ydsg: 2.5
+  td: 0
+  lng: '16'
+  first: 3
+  first_percent: 21.4
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 5
+player_Stepfan_Taylor:  
+  player: Stepfan Taylor
+  team: ARI
+  pos: RB
+  att: 4
+  attg: 0.3
+  yds: 12
+  avg: 3
+  ydsg: 0.8
+  td: 0
+  lng: '12'
+  first: 1
+  first_percent: 25
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Travis_Kelce:  
+  player: Travis Kelce
+  team: KC
+  pos: TE
+  att: 1
+  attg: 0.1
+  yds: -5
+  avg: -5
+  ydsg: -0.3
+  td: 0
+  lng: -5
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Josh_Ferguson:  
+  player: Josh Ferguson
+  team: IND
+  pos: RB
+  att: 15
+  attg: 0.9
+  yds: 20
+  avg: 1.3
+  ydsg: 1.2
+  td: 0
+  lng: '11'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Carson_Wentz:  
+  player: Carson Wentz
+  team: PHI
+  pos: QB
+  att: 46
+  attg: 2.9
+  yds: 150
+  avg: 3.3
+  ydsg: 9.4
+  td: 2
+  lng: '17'
+  first: 15
+  first_percent: 32.6
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 4
+player_Matt_Schaub:  
+  player: Matt Schaub
+  team: ATL
+  pos: QB
+  att: 2
+  attg: 0.5
+  yds: -2
+  avg: -1
+  ydsg: -0.5
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Christine_Michael:  
+  player: Christine Michael
+  team: GB
+  pos: RB
+  att: 31
+  attg: 5.2
+  yds: 114
+  avg: 3.7
+  ydsg: 19
+  td: 1
+  lng: 42T
+  first: 5
+  first_percent: 16.1
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Dak_Prescott:  
+  player: Dak Prescott
+  team: DAL
+  pos: QB
+  att: 57
+  attg: 3.6
+  yds: 282
+  avg: 4.9
+  ydsg: 17.6
+  td: 6
+  lng: '18'
+  first: 21
+  first_percent: 36.8
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 3
+player_Odell_Beckham:  
+  player: Odell Beckham
+  team: NYG
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 9
+  avg: 9
+  ydsg: 0.6
+  td: 0
+  lng: '9'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_DeMarcus_Ayers:  
+  player: DeMarcus Ayers
+  team: PIT
+  pos: WR
+  att: 2
+  attg: 1
+  yds: -12
+  avg: -6
+  ydsg: -6
+  td: 0
+  lng: 0
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_George_Farmer:  
+  player: George Farmer
+  team: SEA
+  pos: RB
+  att: 1
+  attg: 0.5
+  yds: 1
+  avg: 1
+  ydsg: 0.5
+  td: 0
+  lng: '1'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Will_Tukuafu:  
+  player: Will Tukuafu
+  team: SEA
+  pos: FB
+  att: 2
+  attg: 0.3
+  yds: 2
+  avg: 1
+  ydsg: 0.3
+  td: 0
+  lng: '2'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Chad_Henne:  
+  player: Chad Henne
+  team: JAX
+  pos: QB
+  att: 1
+  attg: 1
+  yds: -2
+  avg: -2
+  ydsg: -2
+  td: 0
+  lng: -2
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_James_Wright:  
+  player: James Wright
+  team: CIN
+  pos: WR
+  att: 2
+  attg: 0.2
+  yds: -6
+  avg: -3
+  ydsg: -0.5
+  td: 0
+  lng: 2
+  first: 1
+  first_percent: 50
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Giovani_Bernard:  
+  player: Giovani Bernard
+  team: CIN
+  pos: RB
+  att: 91
+  attg: 9.1
+  yds: '337'
+  avg: 3.7
+  ydsg: 33.7
+  td: 2
+  lng: '17'
+  first: 15
+  first_percent: 16.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Frank_Gore:  
+  player: Frank Gore
+  team: IND
+  pos: RB
+  att: 263
+  attg: 16.4
+  yds: '1,025'
+  avg: 3.9
+  ydsg: 64.1
+  td: 4
+  lng: '22'
+  first: 50
+  first_percent: 19
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 2
+player_EJ_Manuel:  
+  player: EJ Manuel
+  team: BUF
+  pos: QB
+  att: 8
+  attg: 1.3
+  yds: 22
+  avg: 2.8
+  ydsg: 3.7
+  td: 0
+  lng: '8'
+  first: 3
+  first_percent: 37.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Mike_Wallace:  
+  player: Mike Wallace
+  team: BAL
+  pos: WR
+  att: 5
+  attg: 0.3
+  yds: 31
+  avg: 6.2
+  ydsg: 1.9
+  td: 0
+  lng: '13'
+  first: 2
+  first_percent: 40
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Derek_Carr:  
+  player: Derek Carr
+  team: OAK
+  pos: QB
+  att: 39
+  attg: 2.6
+  yds: 70
+  avg: 1.8
+  ydsg: 4.7
+  td: 0
+  lng: '13'
+  first: 5
+  first_percent: 12.8
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 3
+player_Marcus_Mariota:  
+  player: Marcus Mariota
+  team: TEN
+  pos: QB
+  att: 60
+  attg: 4
+  yds: 349
+  avg: 5.8
+  ydsg: 23.3
+  td: 2
+  lng: '41'
+  first: 19
+  first_percent: 31.7
+  twenty_plus: 3
+  forty_plus: 1
+  fum: 7
+player_Jamize_Olawale:  
+  player: Jamize Olawale
+  team: OAK
+  pos: FB
+  att: 17
+  attg: 1.1
+  yds: 47
+  avg: 2.8
+  ydsg: 2.9
+  td: 2
+  lng: '17'
+  first: 5
+  first_percent: 29.4
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Ezekiel_Elliott:  
+  player: Ezekiel Elliott
+  team: DAL
+  pos: RB
+  att: 322
+  attg: 21.5
+  yds: '1,631'
+  avg: 5.1
+  ydsg: 108.7
+  td: 15
+  lng: 60T
+  first: 91
+  first_percent: 28.3
+  twenty_plus: 14
+  forty_plus: 3
+  fum: 5
+player_Antonio_Andrews:  
+  player: Antonio Andrews
+  team: TEN
+  pos: RB
+  att: 2
+  attg: 0.1
+  yds: 15
+  avg: 7.5
+  ydsg: 0.9
+  td: 0
+  lng: '9'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jacquizz_Rodgers:  
+  player: Jacquizz Rodgers
+  team: TB
+  pos: RB
+  att: 129
+  attg: 12.9
+  yds: '560'
+  avg: 4.3
+  ydsg: 56
+  td: 2
+  lng: '45'
+  first: 29
+  first_percent: 22.5
+  twenty_plus: 3
+  forty_plus: 1
+  fum: 0
+player_Golden_Tate:  
+  player: Golden Tate
+  team: DET
+  pos: WR
+  att: 10
+  attg: 0.6
+  yds: 4
+  avg: 0.4
+  ydsg: 0.2
+  td: 0
+  lng: '11'
+  first: 1
+  first_percent: 10
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Mike_Davis:  
+  player: Mike Davis
+  team: SF
+  pos: RB
+  att: 19
+  attg: 2.4
+  yds: 50
+  avg: 2.6
+  ydsg: 6.2
+  td: 1
+  lng: '8'
+  first: 4
+  first_percent: 21.1
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Mark_Sanchez:  
+  player: Mark Sanchez
+  team: DAL
+  pos: QB
+  att: 4
+  attg: 2
+  yds: -2
+  avg: -0.5
+  ydsg: -1
+  td: 0
+  lng: 1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Rob_Kelley:  
+  player: Rob Kelley
+  team: WAS
+  pos: RB
+  att: 168
+  attg: 11.2
+  yds: '704'
+  avg: 4.2
+  ydsg: 46.9
+  td: 6
+  lng: '66'
+  first: 29
+  first_percent: 17.3
+  twenty_plus: 4
+  forty_plus: 2
+  fum: 0
+player_Aaron_Rodgers:  
+  player: Aaron Rodgers
+  team: GB
+  pos: QB
+  att: 67
+  attg: 4.2
+  yds: 369
+  avg: 5.5
+  ydsg: 23.1
+  td: 4
+  lng: '23'
+  first: 25
+  first_percent: 37.3
+  twenty_plus: 3
+  forty_plus: 0
+  fum: 3
+player_Derrick_Henry:  
+  player: Derrick Henry
+  team: TEN
+  pos: RB
+  att: 110
+  attg: 7.3
+  yds: 490
+  avg: 4.5
+  ydsg: 32.7
+  td: 5
+  lng: '22'
+  first: 29
+  first_percent: 26.4
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Khiry_Robinson:  
+  player: Khiry Robinson
+  team: NYJ
+  pos: RB
+  att: 8
+  attg: 8
+  yds: 22
+  avg: 2.8
+  ydsg: 22
+  td: 0
+  lng: '10'
+  first: 1
+  first_percent: 12.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Jay_Ajayi:  
+  player: Jay Ajayi
+  team: MIA
+  pos: RB
+  att: 260
+  attg: 17.3
+  yds: '1,272'
+  avg: 4.9
+  ydsg: 84.8
+  td: 8
+  lng: 62T
+  first: 60
+  first_percent: 23.1
+  twenty_plus: 10
+  forty_plus: 4
+  fum: 4
+player_Terrence_Magee:  
+  player: Terrence Magee
+  team: SEA
+  pos: RB
+  att: 3
+  attg: 1.5
+  yds: 12
+  avg: 4
+  ydsg: 6
+  td: 0
+  lng: '5'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Corey_Brown:  
+  player: Corey Brown
+  team: CAR
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: 6
+  avg: 3
+  ydsg: 0.4
+  td: 0
+  lng: '9'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Doug_Baldwin:  
+  player: Doug Baldwin
+  team: SEA
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 2
+  avg: 0.7
+  ydsg: 0.1
+  td: 0
+  lng: '4'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Kendall_Wright:  
+  player: Kendall Wright
+  team: TEN
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 15
+  avg: 15
+  ydsg: 1.4
+  td: 0
+  lng: '15'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Sterling_Shepard:  
+  player: Sterling Shepard
+  team: NYG
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 31
+  avg: 10.3
+  ydsg: 1.9
+  td: 0
+  lng: '22'
+  first: 1
+  first_percent: 33.3
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Adam_Humphries:  
+  player: Adam Humphries
+  team: TB
+  pos: WR
+  att: 5
+  attg: 0.3
+  yds: 18
+  avg: 3.6
+  ydsg: 1.2
+  td: 0
+  lng: '8'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Tyler_Lockett:  
+  player: Tyler Lockett
+  team: SEA
+  pos: WR
+  att: 6
+  attg: 0.4
+  yds: 114
+  avg: 19
+  ydsg: 7.6
+  td: 1
+  lng: 75T
+  first: 4
+  first_percent: 66.7
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Kyle_Juszczyk:  
+  player: Kyle Juszczyk
+  team: BAL
+  pos: FB
+  att: 5
+  attg: 0.3
+  yds: 22
+  avg: 4.4
+  ydsg: 1.4
+  td: 1
+  lng: 10T
+  first: 3
+  first_percent: 60
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_C.J._Prosise:  
+  player: C.J. Prosise
+  team: SEA
+  pos: RB
+  att: 30
+  attg: 5
+  yds: 172
+  avg: 5.7
+  ydsg: 28.7
+  td: 1
+  lng: 72T
+  first: 3
+  first_percent: 10
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Akeem_Hunt:  
+  player: Akeem Hunt
+  team: HOU
+  pos: RB
+  att: 20
+  attg: 2.5
+  yds: 109
+  avg: 5.5
+  ydsg: 13.6
+  td: 0
+  lng: '19'
+  first: 4
+  first_percent: 20
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Damien_Williams:  
+  player: Damien Williams
+  team: MIA
+  pos: RB
+  att: 35
+  attg: 2.3
+  yds: 115
+  avg: 3.3
+  ydsg: 7.7
+  td: 3
+  lng: '23'
+  first: 8
+  first_percent: 22.9
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Keith_Smith:  
+  player: Keith Smith
+  team: DAL
+  pos: FB
+  att: 2
+  attg: 0.1
+  yds: 5
+  avg: 2.5
+  ydsg: 0.3
+  td: 0
+  lng: '3'
+  first: 2
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Theo_Riddick:  
+  player: Theo Riddick
+  team: DET
+  pos: RB
+  att: 92
+  attg: 9.2
+  yds: '357'
+  avg: 3.9
+  ydsg: 35.7
+  td: 1
+  lng: '42'
+  first: 19
+  first_percent: 20.7
+  twenty_plus: 2
+  forty_plus: 1
+  fum: 0
+player_Chris_Johnson:  
+  player: Chris Johnson
+  team: ARI
+  pos: RB
+  att: 25
+  attg: 6.2
+  yds: 95
+  avg: 3.8
+  ydsg: 23.8
+  td: 1
+  lng: '18'
+  first: 5
+  first_percent: 20
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Andrew_Hawkins:  
+  player: Andrew Hawkins
+  team: CLE
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '1'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jimmy_Garoppolo:  
+  player: Jimmy Garoppolo
+  team: NE
+  pos: QB
+  att: 10
+  attg: 1.7
+  yds: 6
+  avg: 0.6
+  ydsg: 1
+  td: 0
+  lng: '10'
+  first: 1
+  first_percent: 10
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Chris_Thompson:  
+  player: Chris Thompson
+  team: WAS
+  pos: RB
+  att: 68
+  attg: 4.2
+  yds: 356
+  avg: 5.2
+  ydsg: 22.2
+  td: 3
+  lng: 25T
+  first: 16
+  first_percent: 23.5
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 1
+player_Blake_Bortles:  
+  player: Blake Bortles
+  team: JAX
+  pos: QB
+  att: 58
+  attg: 3.6
+  yds: 359
+  avg: 6.2
+  ydsg: 22.4
+  td: 3
+  lng: '27'
+  first: 20
+  first_percent: 34.5
+  twenty_plus: 4
+  forty_plus: 0
+  fum: 2
+player_Lorenzo_Taliaferro:  
+  player: Lorenzo Taliaferro
+  team: BAL
+  pos: RB
+  att: 1
+  attg: 0.3
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Andrew_Luck:  
+  player: Andrew Luck
+  team: IND
+  pos: QB
+  att: 64
+  attg: 4.3
+  yds: 341
+  avg: 5.3
+  ydsg: 22.7
+  td: 2
+  lng: '33'
+  first: 20
+  first_percent: 31.3
+  twenty_plus: 3
+  forty_plus: 0
+  fum: 3
+player_Andre_Williams:  
+  player: Andre Williams
+  team: SD
+  pos: RB
+  att: 18
+  attg: 18
+  yds: '87'
+  avg: 4.8
+  ydsg: 87
+  td: 0
+  lng: '14'
+  first: 6
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Drew_Butler:  
+  player: Drew Butler
+  team: ARI
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Cody_Kessler:  
+  player: Cody Kessler
+  team: CLE
+  pos: QB
+  att: 11
+  attg: 1.2
+  yds: 18
+  avg: 1.6
+  ydsg: 2
+  td: 0
+  lng: '8'
+  first: 1
+  first_percent: 9.1
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 3
+player_Bronson_Hill:  
+  player: Bronson Hill
+  team: JAX
+  pos: RB
+  att: 2
+  attg: 0.7
+  yds: 11
+  avg: 5.5
+  ydsg: 3.7
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Brian_Hoyer:  
+  player: Brian Hoyer
+  team: CHI
+  pos: QB
+  att: 7
+  attg: 1.2
+  yds: -2
+  avg: -0.3
+  ydsg: -0.3
+  td: 0
+  lng: 3
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Jonathan_Stewart:  
+  player: Jonathan Stewart
+  team: CAR
+  pos: RB
+  att: 218
+  attg: 16.8
+  yds: '824'
+  avg: 3.8
+  ydsg: 63.4
+  td: 9
+  lng: '47'
+  first: 47
+  first_percent: 21.6
+  twenty_plus: 6
+  forty_plus: 1
+  fum: 3
+player_Marquette_King:  
+  player: Marquette King
+  team: OAK
+  pos: P
+  att: 2
+  attg: 0.1
+  yds: 27
+  avg: 13.5
+  ydsg: 1.7
+  td: 0
+  lng: '27'
+  first: 1
+  first_percent: 50
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Fozzy_Whittaker:  
+  player: Fozzy Whittaker
+  team: CAR
+  pos: RB
+  att: 57
+  attg: 3.6
+  yds: 265
+  avg: 4.6
+  ydsg: 16.6
+  td: 0
+  lng: '25'
+  first: 10
+  first_percent: 17.5
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Colton_Schmidt:  
+  player: Colton Schmidt
+  team: BUF
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: 16
+  avg: 16
+  ydsg: 1
+  td: 0
+  lng: '16'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Eric_Ebron:  
+  player: Eric Ebron
+  team: DET
+  pos: TE
+  att: 1
+  attg: 0.1
+  yds: 1
+  avg: 1
+  ydsg: 0.1
+  td: 1
+  lng: 1T
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Taylor_Gabriel:  
+  player: Taylor Gabriel
+  team: ATL
+  pos: WR
+  att: 4
+  attg: 0.3
+  yds: 51
+  avg: 12.8
+  ydsg: 3.9
+  td: 1
+  lng: '27'
+  first: 3
+  first_percent: 75
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Benny_Cunningham:  
+  player: Benny Cunningham
+  team: LA
+  pos: RB
+  att: 21
+  attg: 1.9
+  yds: 101
+  avg: 4.8
+  ydsg: 9.2
+  td: 0
+  lng: '24'
+  first: 4
+  first_percent: 19
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 1
+player_Paul_Perkins:  
+  player: Paul Perkins
+  team: NYG
+  pos: RB
+  att: 112
+  attg: 8
+  yds: 456
+  avg: 4.1
+  ydsg: 32.6
+  td: 0
+  lng: '22'
+  first: 22
+  first_percent: 19.6
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 1
+player_Tevin_Coleman:  
+  player: Tevin Coleman
+  team: ATL
+  pos: RB
+  att: 118
+  attg: 9.1
+  yds: '520'
+  avg: 4.4
+  ydsg: 40
+  td: 8
+  lng: 55T
+  first: 24
+  first_percent: 20.3
+  twenty_plus: 5
+  forty_plus: 1
+  fum: 1
+player_Colin_Kaepernick:  
+  player: Colin Kaepernick
+  team: SF
+  pos: QB
+  att: 69
+  attg: 5.8
+  yds: '468'
+  avg: 6.8
+  ydsg: 39
+  td: 2
+  lng: '30'
+  first: 28
+  first_percent: 40.6
+  twenty_plus: 3
+  forty_plus: 0
+  fum: 2
+player_Derek_Watt:  
+  player: Derek Watt
+  team: SD
+  pos: FB
+  att: 2
+  attg: 0.1
+  yds: 4
+  avg: 2
+  ydsg: 0.2
+  td: 0
+  lng: '2'
+  first: 2
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_J.J._Nelson:  
+  player: J.J. Nelson
+  team: ARI
+  pos: WR
+  att: 4
+  attg: 0.3
+  yds: 83
+  avg: 20.8
+  ydsg: 5.5
+  td: 1
+  lng: 56T
+  first: 3
+  first_percent: 75
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Bralon_Addison:  
+  player: Bralon Addison
+  team: CHI
+  pos: WR
+  att: 1
+  attg: 0.5
+  yds: 4
+  avg: 4
+  ydsg: 2
+  td: 0
+  lng: '4'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Drew_Stanton:  
+  player: Drew Stanton
+  team: ARI
+  pos: QB
+  att: 3
+  attg: 0.6
+  yds: -3
+  avg: -1
+  ydsg: -0.6
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Darren_McFadden:  
+  player: Darren McFadden
+  team: DAL
+  pos: RB
+  att: 24
+  attg: 8
+  yds: 87
+  avg: 3.6
+  ydsg: 29
+  td: 0
+  lng: '24'
+  first: 5
+  first_percent: 20.8
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Doug_Martin:  
+  player: Doug Martin
+  team: TB
+  pos: RB
+  att: 144
+  attg: 18
+  yds: '421'
+  avg: 2.9
+  ydsg: 52.6
+  td: 3
+  lng: '17'
+  first: 23
+  first_percent: 16
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Ben_Roethlisberger:  
+  player: Ben Roethlisberger
+  team: PIT
+  pos: QB
+  att: 16
+  attg: 1.1
+  yds: 14
+  avg: 0.9
+  ydsg: 1
+  td: 1
+  lng: '14'
+  first: 3
+  first_percent: 18.8
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Ryan_Mallett:  
+  player: Ryan Mallett
+  team: BAL
+  pos: QB
+  att: 5
+  attg: 1.2
+  yds: -6
+  avg: -1.2
+  ydsg: -1.5
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Darrius_Heyward-Bey:  
+  player: Darrius Heyward-Bey
+  team: PIT
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 60
+  avg: 60
+  ydsg: 6
+  td: 1
+  lng: 60T
+  first: 1
+  first_percent: 100
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Kevin_White:  
+  player: Kevin White
+  team: CHI
+  pos: WR
+  att: 1
+  attg: 0.2
+  yds: 9
+  avg: 9
+  ydsg: 2.2
+  td: 0
+  lng: '9'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Brandon_Bolden:  
+  player: Brandon Bolden
+  team: NE
+  pos: RB
+  att: 1
+  attg: 0.1
+  yds: 4
+  avg: 4
+  ydsg: 0.3
+  td: 0
+  lng: '4'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jonathan_Williams:  
+  player: Jonathan Williams
+  team: BUF
+  pos: RB
+  att: 27
+  attg: 2.5
+  yds: 94
+  avg: 3.5
+  ydsg: 8.5
+  td: 1
+  lng: '20'
+  first: 6
+  first_percent: 22.2
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 2
+player_Amari_Cooper:  
+  player: Amari Cooper
+  team: OAK
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_DeAngelo_Williams:  
+  player: DeAngelo Williams
+  team: PIT
+  pos: RB
+  att: 98
+  attg: 10.9
+  yds: '343'
+  avg: 3.5
+  ydsg: 38.1
+  td: 4
+  lng: '17'
+  first: 20
+  first_percent: 20.4
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Lac_Edwards:  
+  player: Lac Edwards
+  team: NYJ
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Kellen_Clemens:  
+  player: Kellen Clemens
+  team: SD
+  pos: QB
+  att: 2
+  attg: 0.2
+  yds: -1
+  avg: -0.5
+  ydsg: -0.1
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Andy_Janovich:  
+  player: Andy Janovich
+  team: DEN
+  pos: FB
+  att: 4
+  attg: 0.4
+  yds: 33
+  avg: 8.3
+  ydsg: 3
+  td: 1
+  lng: 28T
+  first: 2
+  first_percent: 50
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Carlos_Hyde:  
+  player: Carlos Hyde
+  team: SF
+  pos: RB
+  att: 217
+  attg: 16.7
+  yds: '988'
+  avg: 4.6
+  ydsg: 76
+  td: 6
+  lng: '47'
+  first: 48
+  first_percent: 22.1
+  twenty_plus: 7
+  forty_plus: 2
+  fum: 4
+player_Emmanuel_Sanders:  
+  player: Emmanuel Sanders
+  team: DEN
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 4
+  avg: 4
+  ydsg: 0.2
+  td: 0
+  lng: '4'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Dexter_McCluster:  
+  player: Dexter McCluster
+  team: SD
+  pos: WR
+  att: 3
+  attg: 0.5
+  yds: 2
+  avg: 0.7
+  ydsg: 0.3
+  td: 0
+  lng: '2'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Kirk_Cousins:  
+  player: Kirk Cousins
+  team: WAS
+  pos: QB
+  att: 34
+  attg: 2.1
+  yds: 96
+  avg: 2.8
+  ydsg: 6
+  td: 4
+  lng: 19T
+  first: 14
+  first_percent: 41.2
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 3
+player_Matthew_Slater:  
+  player: Matthew Slater
+  team: NE
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 5
+  avg: 5
+  ydsg: 0.4
+  td: 0
+  lng: '5'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Ryan_Mathews:  
+  player: Ryan Mathews
+  team: PHI
+  pos: RB
+  att: 155
+  attg: 11.9
+  yds: '661'
+  avg: 4.3
+  ydsg: 50.8
+  td: 8
+  lng: '30'
+  first: 38
+  first_percent: 24.5
+  twenty_plus: 6
+  forty_plus: 0
+  fum: 3
+player_Shane_Vereen:  
+  player: Shane Vereen
+  team: NYG
+  pos: RB
+  att: 33
+  attg: 6.6
+  yds: 158
+  avg: 4.8
+  ydsg: 31.6
+  td: 1
+  lng: '25'
+  first: 8
+  first_percent: 24.2
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Alfred_Blue:  
+  player: Alfred Blue
+  team: HOU
+  pos: RB
+  att: 100
+  attg: 7.1
+  yds: 420
+  avg: 4.2
+  ydsg: 30
+  td: 1
+  lng: '25'
+  first: 23
+  first_percent: 23
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 2
+player_Taiwan_Jones:  
+  player: Taiwan Jones
+  team: OAK
+  pos: RB
+  att: 1
+  attg: 0.1
+  yds: -8
+  avg: -8
+  ydsg: -0.6
+  td: 0
+  lng: -8
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Duke_Johnson:  
+  player: Duke Johnson
+  team: CLE
+  pos: RB
+  att: 73
+  attg: 4.6
+  yds: 358
+  avg: 4.9
+  ydsg: 22.4
+  td: 1
+  lng: '22'
+  first: 17
+  first_percent: 23.3
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 1
+player_T.J._Yeldon:  
+  player: T.J. Yeldon
+  team: JAX
+  pos: RB
+  att: 130
+  attg: 8.7
+  yds: 465
+  avg: 3.6
+  ydsg: 31
+  td: 1
+  lng: '16'
+  first: 21
+  first_percent: 16.2
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Jalston_Fowler:  
+  player: Jalston Fowler
+  team: TEN
+  pos: FB
+  att: 1
+  attg: 0.1
+  yds: 3
+  avg: 3
+  ydsg: 0.2
+  td: 0
+  lng: '3'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Troymaine_Pope:  
+  player: Troymaine Pope
+  team: SEA
+  pos: RB
+  att: 11
+  attg: 3.7
+  yds: 43
+  avg: 3.9
+  ydsg: 14.3
+  td: 0
+  lng: '18'
+  first: 3
+  first_percent: 27.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Melvin_Gordon:  
+  player: Melvin Gordon
+  team: SD
+  pos: RB
+  att: 254
+  attg: 19.5
+  yds: '997'
+  avg: 3.9
+  ydsg: 76.7
+  td: 10
+  lng: '48'
+  first: 61
+  first_percent: 24
+  twenty_plus: 7
+  forty_plus: 3
+  fum: 2
+player_Matt_Ryan:  
+  player: Matt Ryan
+  team: ATL
+  pos: QB
+  att: 35
+  attg: 2.2
+  yds: 117
+  avg: 3.3
+  ydsg: 7.3
+  td: 0
+  lng: '18'
+  first: 13
+  first_percent: 37.1
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Matt_Barkley:  
+  player: Matt Barkley
+  team: CHI
+  pos: QB
+  att: 7
+  attg: 1
+  yds: 2
+  avg: 0.3
+  ydsg: 0.3
+  td: 0
+  lng: '5'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Terrelle_Pryor:  
+  player: Terrelle Pryor
+  team: CLE
+  pos: WR
+  att: 8
+  attg: 0.5
+  yds: 21
+  avg: 2.6
+  ydsg: 1.3
+  td: 1
+  lng: '15'
+  first: 2
+  first_percent: 25
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Brandon_Burks:  
+  player: Brandon Burks
+  team: NYJ
+  pos: RB
+  att: 2
+  attg: 2
+  yds: -4
+  avg: -2
+  ydsg: -4
+  td: 0
+  lng: 1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Geno_Smith:  
+  player: Geno Smith
+  team: NYJ
+  pos: QB
+  att: 2
+  attg: 1
+  yds: 9
+  avg: 4.5
+  ydsg: 4.5
+  td: 0
+  lng: '7'
+  first: 1
+  first_percent: 50
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Ronnie_Hillman:  
+  player: Ronnie Hillman
+  team: SD
+  pos: RB
+  att: 23
+  attg: 7.7
+  yds: 81
+  avg: 3.5
+  ydsg: 27
+  td: 0
+  lng: '17'
+  first: 3
+  first_percent: 13
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Michael_Campanaro:  
+  player: Michael Campanaro
+  team: BAL
+  pos: WR
+  att: 3
+  attg: 1
+  yds: 72
+  avg: 24
+  ydsg: 24
+  td: 0
+  lng: '39'
+  first: 3
+  first_percent: 100
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 0
+player_Tavon_Austin:  
+  player: Tavon Austin
+  team: LA
+  pos: WR
+  att: 28
+  attg: 1.9
+  yds: 159
+  avg: 5.7
+  ydsg: 10.6
+  td: 1
+  lng: 30T
+  first: 7
+  first_percent: 25
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 1
+player_Fitzgerald_Toussaint:  
+  player: Fitzgerald Toussaint
+  team: PIT
+  pos: RB
+  att: 14
+  attg: 0.9
+  yds: 58
+  avg: 4.1
+  ydsg: 3.6
+  td: 0
+  lng: '16'
+  first: 2
+  first_percent: 14.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jeremy_Maclin:  
+  player: Jeremy Maclin
+  team: KC
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: -1
+  avg: -1
+  ydsg: -0.1
+  td: 0
+  lng: "-1"
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jamison_Crowder:  
+  player: Jamison Crowder
+  team: WAS
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: -2
+  avg: -1
+  ydsg: -0.1
+  td: 0
+  lng: 7
+  first: 1
+  first_percent: 50
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_De'Anthony_Thomas:  
+  player: De'Anthony Thomas
+  team: KC
+  pos: WR
+  att: 4
+  attg: 0.3
+  yds: 29
+  avg: 7.3
+  ydsg: 2.4
+  td: 0
+  lng: '23'
+  first: 1
+  first_percent: 25
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Marvin_Jones:  
+  player: Marvin Jones
+  team: DET
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 3
+  avg: 3
+  ydsg: 0.2
+  td: 0
+  lng: '3'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Wendell_Smallwood:  
+  player: Wendell Smallwood
+  team: PHI
+  pos: RB
+  att: 77
+  attg: 5.9
+  yds: 312
+  avg: 4.1
+  ydsg: 24
+  td: 1
+  lng: '19'
+  first: 20
+  first_percent: 26
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Ryan_Fitzpatrick:  
+  player: Ryan Fitzpatrick
+  team: NYJ
+  pos: QB
+  att: 33
+  attg: 2.4
+  yds: 130
+  avg: 3.9
+  ydsg: 9.3
+  td: 0
+  lng: '14'
+  first: 7
+  first_percent: 21.2
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 3
+player_Matt_Darr:  
+  player: Matt Darr
+  team: MIA
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_George_Atkinson:  
+  player: George Atkinson
+  team: CLE
+  pos: RB
+  att: 7
+  attg: 0.4
+  yds: 34
+  avg: 4.9
+  ydsg: 2.1
+  td: 1
+  lng: '11'
+  first: 3
+  first_percent: 42.9
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Brandin_Cooks:  
+  player: Brandin Cooks
+  team: 'NO'
+  pos: WR
+  att: 6
+  attg: 0.4
+  yds: 30
+  avg: 5
+  ydsg: 1.9
+  td: 0
+  lng: '11'
+  first: 1
+  first_percent: 16.7
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Chris_Jones:  
+  player: Chris Jones
+  team: DAL
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: 30
+  avg: 30
+  ydsg: 1.9
+  td: 0
+  lng: '30'
+  first: 1
+  first_percent: 100
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Jerick_McKinnon:  
+  player: Jerick McKinnon
+  team: MIN
+  pos: RB
+  att: 159
+  attg: 10.6
+  yds: '539'
+  avg: 3.4
+  ydsg: 35.9
+  td: 2
+  lng: '36'
+  first: 21
+  first_percent: 13.2
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 0
+player_Paul_Richardson:  
+  player: Paul Richardson
+  team: SEA
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 5
+  avg: 5
+  ydsg: 0.3
+  td: 0
+  lng: '5'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Shane_Wynn:  
+  player: Shane Wynn
+  team: JAX
+  pos: WR
+  att: 2
+  attg: 0.4
+  yds: 5
+  avg: 2.5
+  ydsg: 1
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Bilal_Powell:  
+  player: Bilal Powell
+  team: NYJ
+  pos: RB
+  att: 131
+  attg: 8.2
+  yds: '722'
+  avg: 5.5
+  ydsg: 45.1
+  td: 3
+  lng: 35T
+  first: 45
+  first_percent: 34.4
+  twenty_plus: 4
+  forty_plus: 0
+  fum: 0
+player_Jordan_Howard:  
+  player: Jordan Howard
+  team: CHI
+  pos: RB
+  att: 252
+  attg: 16.8
+  yds: '1,313'
+  avg: 5.2
+  ydsg: 87.5
+  td: 6
+  lng: '69'
+  first: 70
+  first_percent: 27.8
+  twenty_plus: 10
+  forty_plus: 2
+  fum: 1
+player_Darren_Sproles:  
+  player: Darren Sproles
+  team: PHI
+  pos: RB
+  att: 94
+  attg: 6.3
+  yds: 438
+  avg: 4.7
+  ydsg: 29.2
+  td: 2
+  lng: 25T
+  first: 22
+  first_percent: 23.4
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Joe_Kerridge:  
+  player: Joe Kerridge
+  team: GB
+  pos: RB
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Russell_Shepard:  
+  player: Russell Shepard
+  team: TB
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 9
+  avg: 9
+  ydsg: 0.6
+  td: 0
+  lng: '9'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jameis_Winston:  
+  player: Jameis Winston
+  team: TB
+  pos: QB
+  att: 53
+  attg: 3.3
+  yds: 165
+  avg: 3.1
+  ydsg: 10.3
+  td: 1
+  lng: '14'
+  first: 10
+  first_percent: 18.9
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 4
+player_Spencer_Ware:  
+  player: Spencer Ware
+  team: KC
+  pos: RB
+  att: 214
+  attg: 15.3
+  yds: '921'
+  avg: 4.3
+  ydsg: 65.8
+  td: 3
+  lng: '46'
+  first: 47
+  first_percent: 22
+  twenty_plus: 3
+  forty_plus: 2
+  fum: 3
+player_Cedric_Peerman:  
+  player: Cedric Peerman
+  team: CIN
+  pos: RB
+  att: 6
+  attg: 1
+  yds: 15
+  avg: 2.5
+  ydsg: 2.5
+  td: 0
+  lng: '4'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jacoby_Brissett:  
+  player: Jacoby Brissett
+  team: NE
+  pos: QB
+  att: 16
+  attg: 5.3
+  yds: 83
+  avg: 5.2
+  ydsg: 27.7
+  td: 1
+  lng: 27T
+  first: 5
+  first_percent: 31.3
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 2
+player_Bradley_Marquez:  
+  player: Bradley Marquez
+  team: LA
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 2
+  avg: 2
+  ydsg: 0.1
+  td: 0
+  lng: '2'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Travaris_Cadet:  
+  player: Travaris Cadet
+  team: 'NO'
+  pos: RB
+  att: 4
+  attg: 0.3
+  yds: 19
+  avg: 4.8
+  ydsg: 1.3
+  td: 0
+  lng: '16'
+  first: 1
+  first_percent: 25
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jordan_Norwood:  
+  player: Jordan Norwood
+  team: DEN
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jalen_Richard:  
+  player: Jalen Richard
+  team: OAK
+  pos: RB
+  att: 83
+  attg: 5.2
+  yds: 491
+  avg: 5.9
+  ydsg: 30.7
+  td: 1
+  lng: 75T
+  first: 14
+  first_percent: 16.9
+  twenty_plus: 5
+  forty_plus: 1
+  fum: 0
+player_Latavius_Murray:  
+  player: Latavius Murray
+  team: OAK
+  pos: RB
+  att: 195
+  attg: 13.9
+  yds: '788'
+  avg: 4
+  ydsg: 56.3
+  td: 12
+  lng: '42'
+  first: 52
+  first_percent: 26.7
+  twenty_plus: 5
+  forty_plus: 1
+  fum: 2
+player_Quan_Bray:  
+  player: Quan Bray
+  team: IND
+  pos: WR
+  att: 1
+  attg: 0.2
+  yds: 7
+  avg: 7
+  ydsg: 1.2
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Lamar_Miller:  
+  player: Lamar Miller
+  team: HOU
+  pos: RB
+  att: 268
+  attg: 19.1
+  yds: '1,073'
+  avg: 4
+  ydsg: 76.6
+  td: 5
+  lng: '45'
+  first: 52
+  first_percent: 19.4
+  twenty_plus: 7
+  forty_plus: 1
+  fum: 2
+player_Kerwynn_Williams:  
+  player: Kerwynn Williams
+  team: ARI
+  pos: RB
+  att: 18
+  attg: 1.8
+  yds: 157
+  avg: 8.7
+  ydsg: 15.7
+  td: 2
+  lng: 49T
+  first: 8
+  first_percent: 44.4
+  twenty_plus: 3
+  forty_plus: 1
+  fum: 0
+player_DeAndre_Washington:  
+  player: DeAndre Washington
+  team: OAK
+  pos: RB
+  att: 87
+  attg: 6.2
+  yds: 467
+  avg: 5.4
+  ydsg: 33.4
+  td: 2
+  lng: '30'
+  first: 19
+  first_percent: 21.8
+  twenty_plus: 7
+  forty_plus: 0
+  fum: 1
+player_Mohamed_Sanu:  
+  player: Mohamed Sanu
+  team: ATL
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 5
+  avg: 5
+  ydsg: 0.3
+  td: 0
+  lng: '5'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Stevan_Ridley:  
+  player: Stevan Ridley
+  team: ATL
+  pos: RB
+  att: 3
+  attg: 3
+  yds: 7
+  avg: 2.3
+  ydsg: 7
+  td: 0
+  lng: '7'
+  first: 1
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Kapri_Bibbs:  
+  player: Kapri Bibbs
+  team: DEN
+  pos: RB
+  att: 29
+  attg: 2.4
+  yds: 129
+  avg: 4.4
+  ydsg: 10.8
+  td: 0
+  lng: '24'
+  first: 7
+  first_percent: 24.1
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 0
+player_Stefon_Diggs:  
+  player: Stefon Diggs
+  team: MIN
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 10
+  avg: 3.3
+  ydsg: 0.8
+  td: 0
+  lng: '12'
+  first: 1
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Brock_Osweiler:  
+  player: Brock Osweiler
+  team: HOU
+  pos: QB
+  att: 30
+  attg: 2
+  yds: 131
+  avg: 4.4
+  ydsg: 8.7
+  td: 2
+  lng: '21'
+  first: 13
+  first_percent: 43.3
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 2
+player_Isaiah_Pead:  
+  player: Isaiah Pead
+  team: MIA
+  pos: RB
+  att: 8
+  attg: 2.7
+  yds: 22
+  avg: 2.8
+  ydsg: 7.3
+  td: 0
+  lng: '4'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Andy_Dalton:  
+  player: Andy Dalton
+  team: CIN
+  pos: QB
+  att: 46
+  attg: 2.9
+  yds: 184
+  avg: 4
+  ydsg: 11.5
+  td: 4
+  lng: '15'
+  first: 17
+  first_percent: 37
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 5
+player_Delanie_Walker:  
+  player: Delanie Walker
+  team: TEN
+  pos: TE
+  att: 2
+  attg: 0.1
+  yds: 11
+  avg: 5.5
+  ydsg: 0.7
+  td: 0
+  lng: '8'
+  first: 1
+  first_percent: 50
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Tom_Savage:  
+  player: Tom Savage
+  team: HOU
+  pos: QB
+  att: 6
+  attg: 2
+  yds: 12
+  avg: 2
+  ydsg: 4
+  td: 0
+  lng: '11'
+  first: 2
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_D.J._Foster:  
+  player: D.J. Foster
+  team: NE
+  pos: RB
+  att: 7
+  attg: 2.3
+  yds: 24
+  avg: 3.4
+  ydsg: 8
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Zach_Zenner:  
+  player: Zach Zenner
+  team: DET
+  pos: FB
+  att: 88
+  attg: 6.3
+  yds: 334
+  avg: 3.8
+  ydsg: 23.9
+  td: 4
+  lng: '20'
+  first: 22
+  first_percent: 25
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Julian_Edelman:  
+  player: Julian Edelman
+  team: NE
+  pos: WR
+  att: 12
+  attg: 0.8
+  yds: 57
+  avg: 4.8
+  ydsg: 3.6
+  td: 0
+  lng: '9'
+  first: 3
+  first_percent: 25
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Corey_Coleman:  
+  player: Corey Coleman
+  team: CLE
+  pos: WR
+  att: 2
+  attg: 0.2
+  yds: 10
+  avg: 5
+  ydsg: 1
+  td: 0
+  lng: '9'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Albert_Wilson:  
+  player: Albert Wilson
+  team: KC
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: 50
+  avg: 25
+  ydsg: 3.1
+  td: 1
+  lng: 55T
+  first: 1
+  first_percent: 50
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Nelson_Agholor:  
+  player: Nelson Agholor
+  team: PHI
+  pos: WR
+  att: 5
+  attg: 0.3
+  yds: 14
+  avg: 2.8
+  ydsg: 0.9
+  td: 0
+  lng: '5'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Brandon_McManus:  
+  player: Brandon McManus
+  team: DEN
+  pos: K
+  att: 1
+  attg: 0.1
+  yds: 6
+  avg: 6
+  ydsg: 0.4
+  td: 0
+  lng: '6'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Mike_Gillislee:  
+  player: Mike Gillislee
+  team: BUF
+  pos: RB
+  att: 101
+  attg: 6.7
+  yds: '577'
+  avg: 5.7
+  ydsg: 38.5
+  td: 8
+  lng: 44T
+  first: 39
+  first_percent: 38.6
+  twenty_plus: 7
+  forty_plus: 1
+  fum: 0
+player_Sean_Mannion:  
+  player: Sean Mannion
+  team: LA
+  pos: QB
+  att: 1
+  attg: 1
+  yds: -1
+  avg: -1
+  ydsg: -1
+  td: 0
+  lng: -1
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Knile_Davis:  
+  player: Knile Davis
+  team: KC
+  pos: RB
+  att: 13
+  attg: 1.4
+  yds: 23
+  avg: 1.8
+  ydsg: 2.6
+  td: 0
+  lng: '6'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Charcandrick_West:  
+  player: Charcandrick West
+  team: KC
+  pos: RB
+  att: 88
+  attg: 5.9
+  yds: 293
+  avg: 3.3
+  ydsg: 19.5
+  td: 1
+  lng: '28'
+  first: 14
+  first_percent: 15.9
+  twenty_plus: 2
+  forty_plus: 0
+  fum: 0
+player_David_Johnson:  
+  player: David Johnson
+  team: ARI
+  pos: RB
+  att: 293
+  attg: 18.3
+  yds: '1,239'
+  avg: 4.2
+  ydsg: 77.4
+  td: 16
+  lng: 58T
+  first: 72
+  first_percent: 24.6
+  twenty_plus: 6
+  forty_plus: 2
+  fum: 5
+player_Justin_Forsett:  
+  player: Justin Forsett
+  team: DEN
+  pos: RB
+  att: 43
+  attg: 10.8
+  yds: '155'
+  avg: 3.6
+  ydsg: 38.8
+  td: 1
+  lng: '64'
+  first: 6
+  first_percent: 14
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 2
+player_Pat_McAfee:  
+  player: Pat McAfee
+  team: IND
+  pos: P
+  att: 1
+  attg: 0.1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Kenneth_Dixon:  
+  player: Kenneth Dixon
+  team: BAL
+  pos: RB
+  att: 88
+  attg: 7.3
+  yds: 382
+  avg: 4.3
+  ydsg: 31.8
+  td: 2
+  lng: '20'
+  first: 26
+  first_percent: 29.5
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Shaun_Draughn:  
+  player: Shaun Draughn
+  team: SF
+  pos: RB
+  att: 74
+  attg: 4.6
+  yds: 196
+  avg: 2.6
+  ydsg: 12.2
+  td: 4
+  lng: '18'
+  first: 15
+  first_percent: 20.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Martellus_Bennett:  
+  player: Martellus Bennett
+  team: NE
+  pos: TE
+  att: 2
+  attg: 0.1
+  yds: 10
+  avg: 5
+  ydsg: 0.6
+  td: 0
+  lng: '6'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_DeMarco_Murray:  
+  player: DeMarco Murray
+  team: TEN
+  pos: RB
+  att: 293
+  attg: 18.3
+  yds: '1,287'
+  avg: 4.4
+  ydsg: 80.4
+  td: 9
+  lng: 75T
+  first: 64
+  first_percent: 21.8
+  twenty_plus: 4
+  forty_plus: 2
+  fum: 3
+player_Case_Keenum:  
+  player: Case Keenum
+  team: LA
+  pos: QB
+  att: 20
+  attg: 2
+  yds: 51
+  avg: 2.6
+  ydsg: 5.1
+  td: 1
+  lng: '13'
+  first: 7
+  first_percent: 35
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Donte_Moncrief:  
+  player: Donte Moncrief
+  team: IND
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: -1
+  avg: -1
+  ydsg: -0.1
+  td: 0
+  lng: "-1"
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Charles_Sims:  
+  player: Charles Sims
+  team: TB
+  pos: RB
+  att: 51
+  attg: 7.3
+  yds: 149
+  avg: 2.9
+  ydsg: 21.3
+  td: 1
+  lng: '23'
+  first: 6
+  first_percent: 11.8
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
+player_Phillip_Dorsett:  
+  player: Phillip Dorsett
+  team: IND
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: 10
+  avg: 5
+  ydsg: 0.7
+  td: 0
+  lng: '7'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Andre_Ellington:  
+  player: Andre Ellington
+  team: ARI
+  pos: RB
+  att: 34
+  attg: 2.1
+  yds: 96
+  avg: 2.8
+  ydsg: 6
+  td: 0
+  lng: '13'
+  first: 4
+  first_percent: 11.8
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Bryce_Treggs:  
+  player: Bryce Treggs
+  team: PHI
+  pos: WR
+  att: 2
+  attg: 0.2
+  yds: 7
+  avg: 3.5
+  ydsg: 0.8
+  td: 0
+  lng: '4'
+  first: 2
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Trevor_Siemian:  
+  player: Trevor Siemian
+  team: DEN
+  pos: QB
+  att: 28
+  attg: 2
+  yds: 57
+  avg: 2
+  ydsg: 4.1
+  td: 0
+  lng: '14'
+  first: 6
+  first_percent: 21.4
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Daniel_Lasco:  
+  player: Daniel Lasco
+  team: 'NO'
+  pos: RB
+  att: 11
+  attg: 1.6
+  yds: 32
+  avg: 2.9
+  ydsg: 4.6
+  td: 0
+  lng: '6'
+  first: 1
+  first_percent: 9.1
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Raheem_Mostert:  
+  player: Raheem Mostert
+  team: SF
+  pos: RB
+  att: 1
+  attg: 1
+  yds: 6
+  avg: 6
+  ydsg: 6
+  td: 0
+  lng: '6'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Jeff_Janis:  
+  player: Jeff Janis
+  team: GB
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: 38
+  avg: 19
+  ydsg: 2.4
+  td: 1
+  lng: 19T
+  first: 2
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Chris_Prosinski:  
+  player: Chris Prosinski
+  team: CHI
+  pos: SS
+  att: 1
+  attg: 0.1
+  yds: 2
+  avg: 2
+  ydsg: 0.1
+  td: 0
+  lng: '2'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_James_White:  
+  player: James White
+  team: NE
+  pos: RB
+  att: 39
+  attg: 2.4
+  yds: 166
+  avg: 4.3
+  ydsg: 10.4
+  td: 0
+  lng: '16'
+  first: 8
+  first_percent: 20.5
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Mack_Brown:  
+  player: Mack Brown
+  team: WAS
+  pos: RB
+  att: 8
+  attg: 0.9
+  yds: 82
+  avg: 10.3
+  ydsg: 9.1
+  td: 1
+  lng: 61T
+  first: 1
+  first_percent: 12.5
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_David_Fales:  
+  player: David Fales
+  team: CHI
+  pos: QB
+  att: 1
+  attg: 1
+  yds: 0
+  avg: 0
+  ydsg: 0
+  td: 0
+  lng: '0'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Devontae_Booker:  
+  player: Devontae Booker
+  team: DEN
+  pos: RB
+  att: 174
+  attg: 10.9
+  yds: '612'
+  avg: 3.5
+  ydsg: 38.2
+  td: 4
+  lng: '18'
+  first: 30
+  first_percent: 17.2
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 2
+player_Orleans_Darkwa:  
+  player: Orleans Darkwa
+  team: NYG
+  pos: RB
+  att: 30
+  attg: 3
+  yds: 111
+  avg: 3.7
+  ydsg: 11.1
+  td: 2
+  lng: '17'
+  first: 7
+  first_percent: 23.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Marc_Mariani:  
+  player: Marc Mariani
+  team: TEN
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: 15
+  avg: 15
+  ydsg: 0.9
+  td: 0
+  lng: '15'
+  first: 1
+  first_percent: 100
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_C.J._Spiller:  
+  player: C.J. Spiller
+  team: NYJ
+  pos: RB
+  att: 3
+  attg: 0.8
+  yds: 9
+  avg: 3
+  ydsg: 2.2
+  td: 0
+  lng: '4'
+  first: 2
+  first_percent: 66.7
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Will_Fuller:  
+  player: Will Fuller
+  team: HOU
+  pos: WR
+  att: 1
+  attg: 0.1
+  yds: -3
+  avg: -3
+  ydsg: -0.2
+  td: 0
+  lng: -3
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Isaiah_Crowell:  
+  player: Isaiah Crowell
+  team: CLE
+  pos: RB
+  att: 198
+  attg: 12.4
+  yds: '952'
+  avg: 4.8
+  ydsg: 59.5
+  td: 7
+  lng: 85T
+  first: 45
+  first_percent: 22.7
+  twenty_plus: 8
+  forty_plus: 3
+  fum: 2
+player_Kenyan_Drake:  
+  player: Kenyan Drake
+  team: MIA
+  pos: RB
+  att: 33
+  attg: 2.1
+  yds: 179
+  avg: 5.4
+  ydsg: 11.2
+  td: 2
+  lng: 45T
+  first: 9
+  first_percent: 27.3
+  twenty_plus: 1
+  forty_plus: 1
+  fum: 0
+player_Tommylee_Lewis:  
+  player: Tommylee Lewis
+  team: 'NO'
+  pos: WR
+  att: 3
+  attg: 0.2
+  yds: 11
+  avg: 3.7
+  ydsg: 0.9
+  td: 0
+  lng: '7'
+  first: 1
+  first_percent: 33.3
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Larry_Fitzgerald:  
+  player: Larry Fitzgerald
+  team: ARI
+  pos: WR
+  att: 2
+  attg: 0.1
+  yds: 5
+  avg: 2.5
+  ydsg: 0.3
+  td: 0
+  lng: '4'
+  first: 0
+  first_percent: 0
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 0
+player_Dion_Lewis:  
+  player: Dion Lewis
+  team: NE
+  pos: RB
+  att: 64
+  attg: 9.1
+  yds: '283'
+  avg: 4.4
+  ydsg: 40.4
+  td: 0
+  lng: '15'
+  first: 14
+  first_percent: 21.9
+  twenty_plus: 0
+  forty_plus: 0
+  fum: 1
+player_Johnny_Holton:  
+  player: Johnny Holton
+  team: OAK
+  pos: WR
+  att: 6
+  attg: 0.4
+  yds: 43
+  avg: 7.2
+  ydsg: 2.9
+  td: 0
+  lng: '29'
+  first: 2
+  first_percent: 33.3
+  twenty_plus: 1
+  forty_plus: 0
+  fum: 1
