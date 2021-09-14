@@ -16,10 +16,10 @@
     <th>Att/G</th>
     <th>
       <%= 
-        link_to "Yds", 
-        :sort => "yds",
+        link_to "Yds",
+        {:sort => "yds",
         :dir => params["dir"] === "DESC" && params["sort"] === "yds" ? "ASC" : "DESC",
-        :player => params["player"],
+        :player => params["player"]},
         :id => "yds-sort",
         :class => "sort-link"
       %>
@@ -29,9 +29,9 @@
     <th>
       <%=
        link_to "TD", 
-       :sort => "td",
+       {:sort => "td",
        :dir => params["dir"] === "DESC" && params["sort"] === "td" ? "ASC" : "DESC",
-       :player => params["player"],
+       :player => params["player"]},
        :id => "td-sort",
        :class => "sort-link"
       %>   
@@ -39,9 +39,9 @@
     <th>
       <%=
         link_to "Lng",
-        :sort => "lng",
+        {:sort => "lng",
         :dir => params["dir"] === "DESC" && params["sort"] === "lng" ? "ASC" : "DESC",
-        :player => params["player"],
+        :player => params["player"]},
         :id => "lng-sort",
         :class => "sort-link"
       %>
