@@ -20,12 +20,12 @@
   <tr class="relative-parent nav-section">
     <% unless @hide_last === true %>
     <td class="pagination-cell">
-      <a href="<%= @last_page_url %>"><button id="last-50" class="pagination styled-button">Last 50</button></a>
+      <a href="<%= @last_page_url %>"><button id="last-page" class="pagination styled-button">Last 50</button></a>
     </td>
     <% end %>
     <% unless @hide_next === true %>
     <td class="pagination-cell">
-      <a href="<%= @next_page_url %>"><button id="next-50" class="pagination styled-button">Next 50</button></a>
+      <a href="<%= @next_page_url %>"><button id="next-page" class="pagination styled-button">Next 50</button></a>
     </td>
     <% end %>
   </tr>
