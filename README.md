@@ -1,24 +1,31 @@
-# README
+# Installation and running this solution
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### DEPENDENCIES 
+* Rails 6.2
+* Ruby 3.0.1
+* Nodejs >= 12.0.0
+* Postgres > 9.0.0
 
-Things you may want to cover:
+### INSTALLATION
+* `SET:` ENV variables for Postgres in database.yml
+* **FROM DIRECTORY**
+* `RUN:` rake db:create
+* `RUN:` rake db:migrate
+* `RUN:` rake db:seed
+* `RUN:` bundle install
 
-* Ruby version
+### USAGE
+* **FROM DIRECTORY**
+* `RUN:` rails s
+* `OPEN:` browser
+* `VISIT:` localhost:3000
 
-* System dependencies
+### TESTING
+* **FROM DIRECTORY**
+* `RUN:` rails test test/system/nfl_players_test.rb
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### TO DO
+* Add auto complete
+* Add onHover with long text to table headings
+* Refactor NFL controller
+* Refactor tests
