@@ -4,31 +4,33 @@ class NflPlayersTest < ApplicationSystemTestCase
   def setup
     @default_dir = "DESC"
     @toggled_dir = "ASC"
+    @pagination_value = 50
   end
   test 'visit players page' do
     visit players_url
-    assert_selector 'h1#title'
     assert_selector 'form#player-form'
     assert_selector 'table#players-table'
     assert_selector 'a#csv-download'
   end
-  test 'display/download all players' do
+  test 'display all players' do
     visit players_url
     sort_results = []
-    all_player_fixtures = Player.all.count
+    all_player_fixtures = Player.all.reverse.map{|player| player.player}
+    paginated_query = all_player_fixtures.first(@pagination_value)
     page_results = all('td.player').count
     all('td.player').each do |td|
       sort_results << td.text
     end
-    assert_equal all_player_fixtures, page_results, "All players are displayed"
+    assert_equal paginated_query, sort_results, "All players are displayed"
     find('a#csv-download').click
     sleep 1
-    validate_csv_match("","", "", sort_results)
+    validate_csv_match("","","", all_player_fixtures)
   end
   test 'filter table/csv by players' do 
-    search_term = 'joe'
+    search_term = 'Joe'
     sort_results = []
     visit players_url
+    puts players_url
     fill_in 'player', with: search_term
     click_button 'player-filter'
     all('td.player').each do |td|
@@ -38,6 +40,14 @@ class NflPlayersTest < ApplicationSystemTestCase
     find('a#csv-download').click
     sleep 1
     validate_csv_match("","DESC", search_term, sort_results)
+  end
+  test 'filter and sort table/csv by players' do 
+    search_term = 'Joe'
+    sort_results = []
+    visit players_url
+    puts players_url
+    fill_in 'player', with: search_term
+    click_button 'player-filter'
     find('a#yds-sort').click
     sleep 1
     sort_results = []
@@ -55,12 +65,12 @@ class NflPlayersTest < ApplicationSystemTestCase
     find('a#yds-sort').click
     sleep 1
     sorted_fixtures_by_yds = Player.all.order(:yds).reverse
-    yds_result = sorted_fixtures_by_yds.map{|player| player.yds}
+    paginated_query = sorted_fixtures_by_yds.first(@pagination_value).map{|player| player.yds}
     yds_players_result = sorted_fixtures_by_yds.map{|player| player.player}
     all('td.yds').each do |td|
       sort_results << td.text.to_i 
     end
-    assert_equal yds_result, sort_results, "Array sorted"
+    assert_equal paginated_query, sort_results, "Array sorted"
     find('a#csv-download').click
     sleep 1
     validate_csv_match("yds","DESC", "", yds_players_result)
@@ -71,12 +81,12 @@ class NflPlayersTest < ApplicationSystemTestCase
     find('a#td-sort').click
     sleep 1
     sorted_fixtures_by_td = Player.all.order(:td).reverse
-    td_result = sorted_fixtures_by_td.map{|player| player.td}
+    paginated_query = sorted_fixtures_by_td.first(@pagination_value).map{|player| player.td}
     td_players_result = sorted_fixtures_by_td.map{|player| player.player}
     all('td.td').each do |td|
       sort_results << td.text.to_i 
     end
-    assert_equal td_result, sort_results, "Array sorted"
+    assert_equal paginated_query, sort_results, "Array sorted"
     find('a#csv-download').click
     sleep 1
     validate_csv_match("td","DESC", "", td_players_result)
@@ -87,12 +97,12 @@ class NflPlayersTest < ApplicationSystemTestCase
     find('a#lng-sort').click
     sleep 1
     sorted_fixtures_by_lng = Player.all.order(:lng).reverse
-    lng_result = sorted_fixtures_by_lng.map{|player| player.lng}
+    paginated_query = sorted_fixtures_by_lng.first(@pagination_value).map{|player| player.lng}
     lng_players_result = sorted_fixtures_by_lng.map{|player| player.player}
     all('td.lng').each do |td|
       sort_results << td.text.to_i 
     end
-    assert_equal lng_result, sort_results, "Array sorted"
+    assert_equal paginated_query, sort_results, "Array sorted"
     find('a#csv-download').click
     sleep 1
     validate_csv_match("lng","DESC", "", lng_players_result)

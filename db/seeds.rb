@@ -18,7 +18,6 @@ if Player.count === 0
       lng_t = player["Lng"].downcase.include?("t") ? true : false
     end
 
-
     Player.create!(
        player: player["Player"],
        team: player["Team"],
@@ -41,3 +40,17 @@ if Player.count === 0
   end
   puts "Players seeded: #{Player.count}"
 end
+
+# TO SPOOF ~10k RECORDS UNCOMMENT THE FOLLOWING AND RUN rake db:seed
+
+# Player.all.each do |player|
+#   count = 0
+#   35.times do
+#     new_player = player.dup
+#     old_name = new_player.player
+#     new_player.player = "#{old_name}+#{count}"
+#     new_player.save
+#     puts "saved #{new_player.player}"
+#     count += 1
+#   end
+# end
